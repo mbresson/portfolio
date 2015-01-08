@@ -1,6 +1,7 @@
-        ========================
+    ========================
 		==matthieu-bresson.com==
 		========================
 
 This is the code of my portfolio website.
+For simplicity and security, I didn't include the folders containing node modules,PHP libraries, and all my work files and images.
 
