@@ -1,0 +1,31 @@
+
+{% if GLOB.data.work.content is defined %}
+<div class='content mobile-padding'>
+  {% for type, item in GLOB.data.work.content %}
+    <div class='content-item content-type-{{ type }}'>
+
+      {% if item.description is defined %}
+        <h4>{{ item.description }}</h4>
+      {% endif %}
+
+      {% if type == 'audio' and item.src is defined %}
+      <audio controls>
+        {% for src, format in item.src %}
+          {% set src = work_files ~ src %}
+          <source src='{{ src }}' type='{{ format }}'>
+        {% endfor %}
+        <h3 class='error'>{% trans('Sorry, it seems that your browser is too old to play this audio!') %}</h3>
+      </audio>
+
+      {% elseif type == 'image' %}
+      <img
+         alt='{% if item.alt is defined %}{{ item.alt }}{% endif %}'
+         src='{{ work_files ~ item.src }}'
+         {% if item.fallback is defined %} onerror="this.src='{{ work_files ~ item.fallback }}'" {% endif %}
+       />
+      {% endif %}
+    </div><!-- .content-item -->
+  {% endfor %}
+</div><!-- .content -->
+{% endif %}
+

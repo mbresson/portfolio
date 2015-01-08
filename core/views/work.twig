@@ -1,0 +1,79 @@
+{% set work_files = GLOB.Router.root ~ "files/works/" ~ GLOB.data.summary.work_id ~ "/" %}
+
+{% extends 'skel/html.twig' %}
+
+{% block body_classes %}{{ parent() }} category-{{ GLOB.data.summary.category }}{% endblock body_classes %}
+
+{% block html_title %}{{ GLOB.data.summary.name }} - {{ parent() }}{% endblock html_title %}
+
+{% if GLOB.data.summary.category in ['photo', 'programming'] %}
+  {% set new_scripts = "<script type='text/javascript' src='" ~  GLOB.Router.root ~ "js/jquery.magnific-popup.min.js'></script>" %}
+
+  {% set new_css = "<link rel='stylesheet' type='text/css' href='" ~ GLOB.Router.root ~ "css/magnific-popup.min.css' />"  %}
+{% endif %}
+
+{% block scripts %}
+  {{ parent() }}
+  {% if new_scripts is defined %}
+    {{ new_scripts|raw }}
+  {% endif %}
+{% endblock scripts %}
+
+{% block head_links %}
+  {{ parent() }}
+  {% if new_css is defined %}
+    {{ new_css|raw }}
+  {% endif %}
+{% endblock head_links %}
+
+
+{% block section_title %}<h2>{{ GLOB.data.summary.name }}</h2>{% endblock section_title %}
+
+{% block section %}
+
+{% if GLOB.data.work.description is defined %}
+<div class='mobile-padding description'>
+  {{ GLOB.data.work.description | raw }}
+</div><!-- .description -->
+{% endif %}
+
+{% embed 'work-' ~ GLOB.data.summary.category ~ '.twig' ignore missing %}
+{% endembed %}
+
+{% if GLOB.data.work.license is defined %}
+<p class='mobile-padding license'>
+  {% set license_link =
+    '<a href=\'' ~ GLOB.data.work.license.href ~ '\' target=\'_blank\' title=\'\'>'
+    ~ GLOB.data.work.license.name
+    ~ '</a>' %}
+
+  {% trans %}License: {{ license_link }}{% endtrans %}
+</p>
+{% endif %}
+
+{% if GLOB.data.work.links is defined %}
+<div class='mobile-padding links'>
+  {% for href, link in GLOB.data.work.links %}
+
+  {% set href = href|replace({' ': '%20'}) %}
+  {% set title = '' %}
+  {% if link.title is defined %}{% set title = link.title %}{% endif %}
+
+  {% if link.type == 'file' %}
+    {% set href = work_files ~ href %}
+  {% endif %}
+
+  <h3>
+    {% if link.type == 'external' or link.type == 'file' %}
+      <a href='{{ href }}' title='{{ title }}' target='_blank'>{{ link.description }}</a>
+    {% else %}
+      <a href='{{ href }}' title='{{ title }}'>{{ link.description }}</a>
+    {% endif %}
+  </h3>
+
+  {% endfor %}
+</div><!-- .links -->
+{% endif %}
+
+{% endblock section %}
+

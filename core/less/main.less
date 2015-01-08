@@ -1,0 +1,474 @@
+/* main.less */
+
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+
+
+@import 'variables.less';
+
+/********************
+MAIN
+********************/
+
+header, nav, section, footer {
+  color: @color-text;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: @color-text;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+
+/********************
+BODY
+********************/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: @color-background;
+}
+
+
+/********************
+WRAPPER
+********************/
+
+body > .wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/********************
+HEADER
+********************/
+
+header {
+  background-color: @color-header-background;
+}
+
+header > .wrapper {
+  min-height: @size-header-height;
+  margin: auto;
+}
+
+header .logo {
+  background-image: url('../img/logo.jpg');
+  background-size: 100%;
+  width: @size-logo-width;
+  height: @size-logo-height;
+
+  float: left;
+  margin: @size-nav-padding-vertical;
+  margin-right: @size-logo-width/4;
+}
+
+
+/********************
+NAV
+********************/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+
+  font-size: 1.05em;
+  text-decoration: none;
+}
+
+nav .languages a {
+  font-size: 0.9em;
+  color: darken(@color-text, 10%);
+}
+
+
+/********************
+SECTION
+********************/
+
+section {
+  padding-bottom: @size-footer-height;
+  color: @color-text;
+}
+
+section p {
+  line-height: 1.5em;
+}
+
+h2 + p {
+  text-indent: 10%;
+}
+
+
+/********************
+FORM
+********************/
+
+input, textarea, label {
+  display: block;
+  margin: auto;
+}
+
+label {
+  text-align: center;
+}
+
+input, textarea {
+  background-color: @color-form-field-background;
+  border: 1px solid @color-form-field-border;
+  border-radius: 7px 4px 7px 4px;
+
+  margin-bottom: 2em;
+  padding: 1% 2%;
+  font-size: 0.9em;
+
+  max-width: 94%;
+}
+
+input:focus, textarea:focus {
+  outline: 0;
+  background-color: lighten(@color-form-field-background, 3%);
+}
+
+input.invalid, textarea.invalid {
+  border-color: @color-error;
+}
+
+textarea {
+  resize: none;
+}
+
+input {
+  font-style: italic;
+}
+
+input.submit {
+  font-size: 1.1em;
+  border: 1px solid @color-link;
+  font-style: normal;
+
+  min-width: 150px;
+  min-height: 50px;
+  padding: 0 10px;
+}
+
+input.submit:hover {
+  border: 1px solid @color-link-emphasis;
+  color: @color-link-emphasis;
+}
+
+input.submit:focus {
+  background-color: @color-form-field-background;
+}
+
+.waiting input.submit {
+  background-image: url('../img/spinner.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+img.mq {
+  margin-bottom: -2px;
+}
+
+input.mq {
+  font-style: normal;
+}
+
+
+/********************
+FOOTER
+********************/
+
+footer {
+  background-color: @color-footer-background;
+  width: 100%;
+  height: @size-footer-height;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  line-height: @size-footer-height;
+  font-size: 0.8em;
+}
+
+
+/********************
+SHOWCASE
+********************/
+
+.filters {
+  text-align: center;
+  line-height: 2em;
+
+  border-bottom: 1px solid lighten(@color-background, 8%);
+}
+
+.filters select {
+  background-color: @color-form-field-background;
+  border: 1px solid @color-form-field-border;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.filters .category-description {
+  display: none;
+}
+
+ul.showcase {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+ul.showcase > li {
+  float: left;
+
+  /*
+   * - Here, margin and width are fallback values when media queries are not supported.
+   * - We need to add the border to the dimensions because of box-sizing.
+   */
+  margin: @size-showcase-item-margin;
+  width: @size-showcase-item-width + (@size-showcase-item-border * 2);
+
+  height: @size-showcase-item-height + (@size-showcase-item-border * 2);
+
+  border: @size-showcase-item-border solid @color-showcase-item-border;
+  box-sizing: border-box;
+}
+
+ul.showcase > li > a {
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+  background-color: @color-showcase-item-background;
+}
+
+ul.showcase > li > a:hover {
+  background-color: lighten(@color-showcase-item-background, 3%);
+}
+
+ul.showcase .thumbnail {
+  width: @size-showcase-thumbnail-width;
+  height: @size-showcase-thumbnail-height;
+}
+
+ul.showcase .summary {
+  width: @size-showcase-summary-width;
+  height: 100%;
+
+  position: absolute;
+  left: @size-showcase-thumbnail-width;
+  top: 0;
+
+  line-height: @size-showcase-item-height;
+}
+
+ul.showcase .category-hint {
+  width: @size-showcase-category-hint-width;
+  height: @size-showcase-category-hint-height;
+
+  background: url('../img/corner-category-hint.png') no-repeat center;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  transition: 150ms linear all;
+}
+
+ul.showcase .category-hint img {
+  width: @size-showcase-category-hint-width * 0.5;
+  height: @size-showcase-category-hint-height * 0.5;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 150ms linear all;
+}
+
+ul.showcase > li > a:hover .category-hint {
+  width: @size-showcase-category-hint-width * 1.2;
+  height: @size-showcase-category-hint-height * 1.2;
+}
+
+ul.showcase > li > a:hover .category-hint img {
+  width: @size-showcase-category-hint-width * 0.6;
+  height: @size-showcase-category-hint-height * 0.6;
+}
+
+ul.showcase .label {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-left: @size-showcase-summary-width / 8;
+  margin-right: @size-showcase-category-hint-width / 3;
+}
+
+body.lang-th ul.showcase .label {
+  font-size: 0.9em;
+}
+
+
+/*
+ * The layout of the showcase is a little bit tricky:
+ * a showcase is constituted of different items
+ * each item has a minimum width of @size-showcase-item-width
+ * we display as many items as we can in a row, by scaling their width to fit the available space
+ * if their scaled width is inferior to the minimum width, we decrease the number of columns.
+ */
+
+.loop-showcase (@max_cols, @num_cols: 1) when (@num_cols <= @max_cols) {
+
+  @media screen
+    and(min-width: (@size-showcase-item-outer-min-width * (@num_cols)))
+  {
+    ul.showcase > li {
+      width: (100 / @num_cols) - (@size-showcase-item-margin*2);
+      margin: @size-showcase-item-margin;
+    }
+  }
+
+  .loop-showcase(@max_cols, (@num_cols + 1));
+}
+
+.loop-showcase(4);
+
+
+/********************
+WORK
+********************/
+
+.description p:first-child {
+  text-indent: 10%;
+}
+
+.content .content-type-image {
+  text-align: center;
+}
+
+.content .content-type-image img {
+  max-width: 100%;
+}
+
+.content-type-image, .album-teaser {
+  padding: 1%;
+  border: 1px solid lighten(@color-background, 8%);
+}
+
+.album-teaser {
+  width: @size-album-teaser-width;
+  height: @size-album-teaser-height;
+  margin: auto;
+}
+
+.album-teaser img {
+  width: 100%;
+}
+
+.screenshots {
+  overflow: hidden;
+  width: 100%;
+}
+
+.screenshots a {
+  display: block;
+  float: left;
+
+  width: @size-work-screenshot-thumbnail-width;
+  height: @size-work-screenshot-thumbnail-height;
+
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid lighten(@color-background, 8%);
+}
+
+.screenshots a img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/********************
+MISC.
+********************/
+
+.hidden {
+  display: none;
+}
+
+/* .success and .failure are only for form errors */
+.success, .failure {
+  text-align: center;
+}
+
+.success:before {
+  content: '✓ ';
+}
+
+.failure {
+  color: @color-error;
+}
+
+.failure:before {
+  content: '✗ ';
+}
+
+.error {
+  color: @color-error;
+}
+
+blockquote {
+  font-size: 0.9em;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 1%;
+  border: 1px solid lighten(@color-background, 8%);
+}
+
+blockquote cite {
+  font-size: 1.05em;
+}
+
+

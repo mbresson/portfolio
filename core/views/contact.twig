@@ -1,0 +1,48 @@
+{% extends 'skel/html.twig' %}
+
+{% block section %}
+
+<form action='{{ siteUrl(GLOB.Router.routes['contact_post'].url) }}' method='post' id='form-contact'>
+  <label for='fi_name'>{% trans('What\'s your name?') %}</label>
+  <input type='text' name='name' id='fi_name' maxlength='50' required autofocus />
+
+  <label for='fi_email'>{% trans('I also need your email address') %}</label>
+  <input type='email' name='email' id='fi_email' maxlength='50' required />
+
+  <label for='fi_message'>{% trans('Feel free to express yourself') %}</label>
+  <textarea name='message' id='fi_message' maxlength='2500' rows='5' cols='30' required></textarea>
+
+  <label for='fi_mq'>
+    {% trans('Please answer this math question: ') %}
+    <img class='mq' alt='{% trans('math question') %}' src='data:image/png;base64,{{ GLOB.data.captcha }}' />
+  </label>
+
+  <input type='number' class='mq' name='mq' id='fi_mq' placeholder='42' required />
+
+  <input type='hidden' name='formid' value='{{ GLOB.data.form.id }}' />
+
+  <input class='submit button' type='submit' value='{% trans('Send!') %}' />
+
+</form>
+
+<h3 class='hidden success'>{% trans('Thank you for your message!') %}</h3>
+
+<h3 class='hidden failure' id='failure_connection'>
+{% trans('Sorry, the server isn\'t responding! Please check your internet connection.') %}
+</h3>
+
+<h3 class='hidden failure' id='failure_session'>
+{% trans('Sorry, it took you too long to send the form! Please refresh the page and try again.') %}
+</h3>
+
+<h3 class='hidden failure' id='failure_server'>
+{% trans('Sorry, the message couldn\'t be sent! I\'ll address this problem as soon as possible. Thank you for your interest.') %}
+</h3>
+
+{% endblock section %}
+
+{% block scripts %}
+{{ parent() }}
+    <script type='text/javascript' src='js/jquery.validate.min.js'></script>
+{% endblock scripts %}
+

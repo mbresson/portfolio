@@ -1,0 +1,67 @@
+/* variables.less */
+
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+
+
+/********************
+COLORS
+********************/
+
+@color-background: #2A2A2A;
+@color-header-background: #3A3A3A;
+@color-footer-background: #333333;
+@color-nav-link-border--mobile: lighten(@color-header-background, 5%);
+
+@color-error: #BA0000;
+
+@color-text: white;
+@color-link: @color-text;
+@color-link-emphasis: #569C1B;
+
+@color-form-field-background: lighten(@color-background, 5%);
+@color-form-field-border: lighten(@color-form-field-background, 5%);
+
+@color-showcase-item-background: lighten(@color-background, 5%);
+@color-showcase-item-border: lighten(@color-showcase-item-background, 5%);
+
+
+/********************
+SIZES
+********************/
+
+@size-content-width: 900px;
+@size-content-min-width: (@size-content-width - 50px);
+
+@size-logo-height: 66px;
+@size-logo-width: 80px;
+
+@size-header-width: @size-content-width;
+@size-header-min-width: @size-content-min-width;
+@size-header-height: 100px;
+
+@size-nav-height: @size-logo-height;
+@size-nav-padding-vertical: (@size-header-height - @size-logo-height) / 2;
+
+@size-footer-height: 30px;
+
+@size-showcase-thumbnail-width: 64px;
+@size-showcase-thumbnail-height: 64px;
+@size-showcase-category-hint-width: 32px;
+@size-showcase-category-hint-height: 32px;
+
+@size-showcase-item-border: 1px;
+@size-showcase-item-margin: 1%;
+@size-showcase-item-min-margin: 10px;
+@size-showcase-summary-width: 128px;
+@size-showcase-item-height: @size-showcase-thumbnail-height;
+@size-showcase-item-width: @size-showcase-thumbnail-width + @size-showcase-summary-width;
+@size-showcase-item-outer-min-width: @size-showcase-item-width + 2*@size-showcase-item-min-margin;
+
+@size-album-teaser-width: 256px;
+@size-album-teaser-height: @size-album-teaser-width;
+
+@size-work-screenshot-thumbnail-width: 128px;
+@size-work-screenshot-thumbnail-height: @size-work-screenshot-thumbnail-width;
+

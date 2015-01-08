@@ -1,0 +1,21 @@
+
+{% if GLOB.data.work.screenshots is defined %}
+<div class='screenshots mobile-padding'>
+  <h4>{% trans('A few screenshots:') %}</h4>
+
+  {% for item in GLOB.data.work.screenshots %}
+      
+      {% set title = '' %}
+      {% if item.title is defined %}
+        {% set title = item.title %}
+      {% endif %}
+
+      {% set src = GLOB.Router.root ~ 'img/works/' ~ GLOB.data.summary.work_id ~ '/' ~ item.src %}
+
+      <a href='{{ src|replace({' ': '%20'}) }}' title='{{ title }}'>
+        <img alt='{% if item.alt is defined %}{{ item.alt }}{% endif %}' src='{{ GLOB.Router.root ~ item.thumbnail|replace({' ': '%20'}) }}' />
+       </a>
+  {% endfor %}
+</div><!-- .screenshots -->
+{% endif %}
+

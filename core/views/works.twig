@@ -1,0 +1,47 @@
+{% extends 'skel/html.twig' %}
+
+{% block section %}
+
+<div class='filters'>
+  <select class='filter-name-category'>
+    <option value='all' selected>{% trans('All categories') %}</option>
+    {% for id, category in GLOB.data.categories %}
+    <option value='{{ id }}'>{{ category.name }}</option>
+    {% endfor %}
+  </select>
+
+  <select class='filter-name-schoolproject'>
+    <option value='all' selected>{% trans('All work contexts') %}</option>
+    <option value='false'>{% trans('Personal projects') %}</option>
+    <option value='true'>{% trans('School projects') %}</option>
+  </select>
+
+  {% for id, category in GLOB.data.categories %}
+  <p class='category-description category-{{ id }}'><em>{{ category.description }}</em></p>
+  {% endfor %}
+</div>
+
+<ul class='showcase'>
+{% for id, work in GLOB.data.works %}
+
+<li class='category-{{ work.category }} schoolproject-{% if work.filters.school_project %}true{% else %}false{% endif %}'>
+  <a href='{{ siteUrl("/works/#{id|url_encode}") }}' title='{{ work.summary }}'>
+    <img class='thumbnail' src='{{ work.thumbnail|replace({' ': '%20'}) }}' alt='' />
+
+    <div class='category-hint'><img src='{{ GLOB.Router.root }}img/category-{{ work.category }}.png' alt='' /></div>
+
+    <div class='summary'>
+      <span class='label'>{{ work.name }}</span>
+    </div>
+  </a>
+</li>
+
+{% endfor %}
+</ul>
+
+<h3 class='hidden' id='no_result'>
+{% trans('No results!') %}
+</h3>
+
+{% endblock section %}
+

@@ -1,0 +1,9 @@
+
+<footer>
+  {% set year = 'now'|date('Y') %}
+  {% if GLOB.I18N.preferred_language == 'th' %}
+  {% set year = year + 543 %}
+  {% endif %}
+
+  <p>© Matthieu Bresson {{ year }}</p>
+</footer>

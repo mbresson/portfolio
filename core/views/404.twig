@@ -1,0 +1,21 @@
+{% extends 'skel/html.twig' %}
+
+{% block section_title %}<h2 class='error'>{% trans('Page not found!') %}</h2>{% endblock section_title %}
+
+{% block section %}
+
+<blockquote>
+  <p>
+    <cite>{% trans('A Turkish Proverb says: ') %}</cite>
+
+    <q>{% trans('No matter how far down the wrong road you\'ve gone, turn back.') %}</q>
+  </p>
+</blockquote>
+
+<h3>
+  <a href='{{ siteUrl('/') }}' title='{% trans('Go back home') %}'>{% trans('Are you lost? Go back home!') %}</a>
+</h3>
+
+{% endblock section %}
+
+

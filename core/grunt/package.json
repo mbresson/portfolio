@@ -1,0 +1,17 @@
+{
+  "name": "matthieu-bresson",
+  "version": "2.0.0",
+  "description": "a portfolio website to showcase my creations and my skills",
+  "author": "Matthieu Bresson",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-csslint": "^0.3.1",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "normalize.css": "^3.0.2"
+  }
+}

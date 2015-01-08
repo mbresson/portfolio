@@ -1,0 +1,32 @@
+
+{% set work_id = GLOB.data.summary.work_id %}
+
+{% set compound_link = '[' %}
+
+{% for photo in GLOB.data.work.photos %}
+  {% set path = work_files ~ photo.src %}
+
+  {% set title = '' %}
+
+  {% if photo.title is defined %}
+    {% set title = photo.title|replace({'\"': '"'})|replace({'"': '\"'}) %}
+  {% endif %}
+
+  {% set link = '{ "src":"' ~ path ~ '", "title":"' ~ title ~ '"}' %}
+
+  {% if compound_link != '[' %}
+    {% set compound_link = compound_link ~ ', ' %}
+  {% endif %}
+
+  {% set compound_link = compound_link ~ link %}
+{% endfor %}
+
+{% set compound_link = compound_link ~ "]" %}
+
+<div class='album-teaser'>
+<a href='#' data-link='{{ compound_link }}' title='{% trans('Click to open the album viewer') %}' class='album-link'>
+<img alt='' src='{{ GLOB.Router.root ~ "img/works/" ~ work_id ~ "/" ~ work_id ~ ".teaser.jpg" }}' />
+</a>
+</div>
+
+<h4>{% trans('Click the cover to enter the album.') %}</h4>

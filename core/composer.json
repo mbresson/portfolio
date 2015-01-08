@@ -1,0 +1,20 @@
+{
+    "name": "matthieu",
+
+    "authors": [
+        {
+            "name": "Matthieu Bresson",
+            "email": "bresson-matthieu@orange.fr",
+            "homepage": "https://github.com/mbresson"
+        }
+    ],
+
+  "require": {
+    "slim/slim": "2.4.3",
+    "slim/views": "0.1.2",
+    "slim/logger": "0.1.0",
+    "twig/twig": "1.16.2",
+    "twig/extensions": "1.2.0",
+    "phpmailer/phpmailer": "5.2.9"
+  }
+}

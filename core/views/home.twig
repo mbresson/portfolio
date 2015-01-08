@@ -1,0 +1,30 @@
+{% extends 'skel/html.twig' %}
+
+{% block section_title %}<h2>{% trans('Welcome!') %}</h2>{% endblock section_title %}
+
+{% block section %}
+
+<p>
+{% trans %}
+I am Matthieu Bresson. I'm a self-taught person, passionate about computer science and natural languages. I can dive in a book all day long, or spend hours tinkering with my GNU/Linux system. Although I was born and raised in France, I intend to work and settle abroad.
+{% endtrans %}
+</p>
+
+<p>
+{% trans %}
+The emblem of my website is a pathway through the woods, because life is a long and complicated path we must all walk. It's fine, I love strolling.
+{% endtrans %}
+</p>
+
+<h4>{% trans('Enjoy your visit!') %}</h4>
+
+<blockquote>
+  {% set from = GLOB.data.wisdom.from %}
+  <p>
+    <cite>{% trans %}{{ from }} says: {% endtrans %}</cite>
+
+    <q>{{ GLOB.data.wisdom.text }}</q>
+  </p>
+</blockquote>
+
+{% endblock section %}

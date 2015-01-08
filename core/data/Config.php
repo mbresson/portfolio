@@ -1,0 +1,5 @@
+<?php
+
+$contents = [
+  'dev' => true
+];

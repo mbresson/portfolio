@@ -1,0 +1,101 @@
+/* desktop.less */
+
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+
+
+@import 'variables.less';
+
+@media screen and (min-width: @size-content-width) {
+
+
+/********************
+HEADER
+********************/
+
+  header > .wrapper {
+    width: @size-header-width;
+  }
+
+  header .menu-toggle {
+    display: none;
+  }
+
+/********************
+NAV
+********************/
+
+  nav {
+    padding: @size-nav-padding-vertical;
+    position: relative;
+  }
+
+  nav ul {
+    height: @size-nav-height;
+  }
+
+  nav li {
+    display: table-cell;
+  }
+
+  nav a {
+    padding: 0 20px;
+    border: 1px solid transparent;
+
+    line-height: @size-nav-height - 2;
+  }
+
+  nav a:hover {
+    border: 1px solid @color-text;
+  }
+
+  nav .languages {
+    position: absolute;
+    right: @size-nav-padding-vertical;
+    top: @size-nav-padding-vertical;
+  }
+
+  nav .languages a:hover {
+    border-color: darken(@color-text, 10%);
+    border-style: dashed;
+  }
+
+
+/********************
+SECTION
+********************/
+
+  section {
+    width: @size-content-width;
+    margin: auto;
+  }
+
+
+/********************
+FORM
+********************/
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+/********************
+WORK
+********************/
+
+  .content .content-type-image {
+    max-width: 75%;
+    margin: auto;
+  }
+
+
+}
+

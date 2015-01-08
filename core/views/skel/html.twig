@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang='{{ GLOB.I18N.languages[GLOB.I18N.preferred_language].html }}'>
+
+  <head>
+    {% block head %}
+
+    <meta charset='utf-8' />
+    <meta content='target-densitydpi=device-dpi,width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0' name='viewport' />
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <title>{% block html_title %}{{ GLOB.page.title }}{% endblock html_title %} - Matthieu Bresson</title>
+
+    {% block head_links %}
+    <link rel="icon" type="image/x-icon" href="{{ GLOB.Router.root }}favicon.ico" />
+    <link rel="icon" type="image/png" href="{{ GLOB.Router.root }}favicon-32x32.png" sizes="32x32" />
+
+    <link rel='stylesheet' type='text/css' href='{{ GLOB.Router.root }}css/main.min.css' />
+    {% endblock head_links %}
+
+    {% endblock head %}
+  </head>
+
+  <body id='page-{{ GLOB.page.id }}' class='lang-{{ GLOB.I18N.preferred_language }} {% block body_classes %}{% endblock body_classes %}'>
+  
+  <div class='wrapper'>
+    
+    {% include 'skel/header.twig' %}
+
+    <section>
+      {% if GLOB.page.title is defined %}
+        {% block section_title %}<h2>{{ GLOB.page.title }}</h2>{% endblock section_title %}
+      {% endif %}
+
+      {% block section %}
+      {% endblock section %}
+    </section>
+
+    {% include 'skel/footer.twig' %}
+
+    {% block scripts %}
+    <script type='text/javascript' src='{{ GLOB.Router.root }}js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='{{ GLOB.Router.root }}js/script.min.js'></script>
+    {% endblock scripts %}
+
+  </div><!-- .wrapper -->
+
+  </body>
+
+</html>

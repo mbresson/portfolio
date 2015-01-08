@@ -1,0 +1,41 @@
+
+<nav>
+  <ul class='menu'>
+    {% for controller, route in GLOB.Router.routes %}
+
+      {% if route.hide is not defined or route.hide == false %}
+
+        <li {% if GLOB.page.id == controller %}class='active'{% endif %}>
+          {% if route.type == 'external' %}
+            <a href='{{ route.url }}' title='{{ route.name }}' target='_blank'>
+              {{ route.name }}
+            </a>
+
+          {% elseif route.type == 'file' %}
+            <a href='{{ GLOB.Router.root }}{{ route.url }}' title='{{ route.name|replace({' ': '%20'}) }}' target='_blank'>
+              {{ route.name }}
+            </a>
+
+          {% else %}
+            <a href='{{ siteUrl(route.url) }}' title='{{ route.name }}'>
+              {{ route.name }}
+            </a>
+
+          {% endif %}
+        </li>
+
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+  <ul class='languages'>
+    {% for abbr, language in GLOB.I18N.languages %}
+      <li {% if GLOB.I18N.languages[GLOB.I18N.preferred_language].abbr == language.abbr %}class='active'{% endif %}>
+        <a href='?lc={{ language.html }}' title='{{ language.name }}'>{{ language.name }}</a>
+      </li>
+
+    {% endfor %}
+  </ul>
+</nav>
+

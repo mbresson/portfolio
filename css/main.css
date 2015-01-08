@@ -1,0 +1,571 @@
+/* desktop.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/* variables.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/********************
+COLORS
+********************/
+/********************
+SIZES
+********************/
+@media screen and (min-width: 900px) {
+  /********************
+HEADER
+********************/
+  header > .wrapper {
+    width: 900px;
+  }
+  header .menu-toggle {
+    display: none;
+  }
+  /********************
+NAV
+********************/
+  nav {
+    padding: 17px;
+    position: relative;
+  }
+  nav ul {
+    height: 66px;
+  }
+  nav li {
+    display: table-cell;
+  }
+  nav a {
+    padding: 0 20px;
+    border: 1px solid transparent;
+    line-height: 64px;
+  }
+  nav a:hover {
+    border: 1px solid #ffffff;
+  }
+  nav .languages {
+    position: absolute;
+    right: 17px;
+    top: 17px;
+  }
+  nav .languages a:hover {
+    border-color: #e6e6e6;
+    border-style: dashed;
+  }
+  /********************
+SECTION
+********************/
+  section {
+    width: 900px;
+    margin: auto;
+  }
+  /********************
+FORM
+********************/
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  /********************
+WORK
+********************/
+  .content .content-type-image {
+    max-width: 75%;
+    margin: auto;
+  }
+}
+
+/* main.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/* variables.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/********************
+COLORS
+********************/
+/********************
+SIZES
+********************/
+/********************
+MAIN
+********************/
+header,
+nav,
+section,
+footer {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+a {
+  color: #ffffff;
+}
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center;
+}
+h3 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+h4 {
+  font-size: 1.1em;
+  font-weight: normal;
+}
+/********************
+BODY
+********************/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  background-color: #2a2a2a;
+}
+/********************
+WRAPPER
+********************/
+body > .wrapper {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+/********************
+HEADER
+********************/
+header {
+  background-color: #3a3a3a;
+}
+header > .wrapper {
+  min-height: 100px;
+  margin: auto;
+}
+header .logo {
+  background-image: url('../img/logo.jpg');
+  background-size: 100%;
+  width: 80px;
+  height: 66px;
+  float: left;
+  margin: 17px;
+  margin-right: 20px;
+}
+/********************
+NAV
+********************/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav a {
+  display: block;
+  font-size: 1.05em;
+  text-decoration: none;
+}
+nav .languages a {
+  font-size: 0.9em;
+  color: #e6e6e6;
+}
+/********************
+SECTION
+********************/
+section {
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+section p {
+  line-height: 1.5em;
+}
+h2 + p {
+  text-indent: 10%;
+}
+/********************
+FORM
+********************/
+input,
+textarea,
+label {
+  display: block;
+  margin: auto;
+}
+label {
+  text-align: center;
+}
+input,
+textarea {
+  background-color: #373737;
+  border: 1px solid #444444;
+  border-radius: 7px 4px 7px 4px;
+  margin-bottom: 2em;
+  padding: 1% 2%;
+  font-size: 0.9em;
+  max-width: 94%;
+}
+input:focus,
+textarea:focus {
+  outline: 0;
+  background-color: #3e3e3e;
+}
+input.invalid,
+textarea.invalid {
+  border-color: #ba0000;
+}
+textarea {
+  resize: none;
+}
+input {
+  font-style: italic;
+}
+input.submit {
+  font-size: 1.1em;
+  border: 1px solid #ffffff;
+  font-style: normal;
+  min-width: 150px;
+  min-height: 50px;
+  padding: 0 10px;
+}
+input.submit:hover {
+  border: 1px solid #569c1b;
+  color: #569c1b;
+}
+input.submit:focus {
+  background-color: #373737;
+}
+.waiting input.submit {
+  background-image: url('../img/spinner.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+img.mq {
+  margin-bottom: -2px;
+}
+input.mq {
+  font-style: normal;
+}
+/********************
+FOOTER
+********************/
+footer {
+  background-color: #333333;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+footer p {
+  text-align: center;
+  margin: 0;
+  line-height: 30px;
+  font-size: 0.8em;
+}
+/********************
+SHOWCASE
+********************/
+.filters {
+  text-align: center;
+  line-height: 2em;
+  border-bottom: 1px solid #3e3e3e;
+}
+.filters select {
+  background-color: #373737;
+  border: 1px solid #444444;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+.filters .category-description {
+  display: none;
+}
+ul.showcase {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+}
+ul.showcase > li {
+  float: left;
+  /*
+   * - Here, margin and width are fallback values when media queries are not supported.
+   * - We need to add the border to the dimensions because of box-sizing.
+   */
+  margin: 1%;
+  width: 194px;
+  height: 66px;
+  border: 1px solid #444444;
+  box-sizing: border-box;
+}
+ul.showcase > li > a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #373737;
+}
+ul.showcase > li > a:hover {
+  background-color: #3e3e3e;
+}
+ul.showcase .thumbnail {
+  width: 64px;
+  height: 64px;
+}
+ul.showcase .summary {
+  width: 128px;
+  height: 100%;
+  position: absolute;
+  left: 64px;
+  top: 0;
+  line-height: 64px;
+}
+ul.showcase .category-hint {
+  width: 32px;
+  height: 32px;
+  background: url('../img/corner-category-hint.png') no-repeat center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 150ms linear all;
+}
+ul.showcase .category-hint img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 150ms linear all;
+}
+ul.showcase > li > a:hover .category-hint {
+  width: 38.4px;
+  height: 38.4px;
+}
+ul.showcase > li > a:hover .category-hint img {
+  width: 19.2px;
+  height: 19.2px;
+}
+ul.showcase .label {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  margin-left: 16px;
+  margin-right: 10.66666667px;
+}
+body.lang-th ul.showcase .label {
+  font-size: 0.9em;
+}
+/*
+ * The layout of the showcase is a little bit tricky:
+ * a showcase is constituted of different items
+ * each item has a minimum width of @size-showcase-item-width
+ * we display as many items as we can in a row, by scaling their width to fit the available space
+ * if their scaled width is inferior to the minimum width, we decrease the number of columns.
+ */
+@media screen and (min-width: 212px) {
+  ul.showcase > li {
+    width: 98%;
+    margin: 1%;
+  }
+}
+@media screen and (min-width: 424px) {
+  ul.showcase > li {
+    width: 48%;
+    margin: 1%;
+  }
+}
+@media screen and (min-width: 636px) {
+  ul.showcase > li {
+    width: 31.33333333%;
+    margin: 1%;
+  }
+}
+@media screen and (min-width: 848px) {
+  ul.showcase > li {
+    width: 23%;
+    margin: 1%;
+  }
+}
+/********************
+WORK
+********************/
+.description p:first-child {
+  text-indent: 10%;
+}
+.content .content-type-image {
+  text-align: center;
+}
+.content .content-type-image img {
+  max-width: 100%;
+}
+.content-type-image,
+.album-teaser {
+  padding: 1%;
+  border: 1px solid #3e3e3e;
+}
+.album-teaser {
+  width: 256px;
+  height: 256px;
+  margin: auto;
+}
+.album-teaser img {
+  width: 100%;
+}
+.screenshots {
+  overflow: hidden;
+  width: 100%;
+}
+.screenshots a {
+  display: block;
+  float: left;
+  width: 128px;
+  height: 128px;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid #3e3e3e;
+}
+.screenshots a img {
+  width: 100%;
+  height: 100%;
+}
+/********************
+MISC.
+********************/
+.hidden {
+  display: none;
+}
+/* .success and .failure are only for form errors */
+.success,
+.failure {
+  text-align: center;
+}
+.success:before {
+  content: '✓ ';
+}
+.failure {
+  color: #ba0000;
+}
+.failure:before {
+  content: '✗ ';
+}
+.error {
+  color: #ba0000;
+}
+blockquote {
+  font-size: 0.9em;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 1%;
+  border: 1px solid #3e3e3e;
+}
+blockquote cite {
+  font-size: 1.05em;
+}
+
+/* mobile.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/* variables.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/********************
+COLORS
+********************/
+/********************
+SIZES
+********************/
+@media screen and (max-width: 899px) {
+  /********************
+HEADER
+********************/
+  header {
+    border-bottom: 1px solid #606060;
+  }
+  header .logo {
+    margin-right: 0;
+  }
+  header .menu-toggle {
+    z-index: 100;
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    line-height: 91.5px;
+    padding-bottom: 8.5px;
+    font-size: 4em;
+    text-align: center;
+    font-weight: normal;
+  }
+  /********************
+NAV
+********************/
+  nav {
+    display: none;
+  }
+  nav ul {
+    clear: both;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    text-align: center;
+    padding: 3%;
+  }
+  nav .menu a {
+    font-size: 1.2em;
+    border-top: 1px solid #474747;
+  }
+  nav .languages {
+    display: table;
+    width: 100%;
+    border-top: 1px solid #545454;
+  }
+  nav .languages li {
+    display: table-cell;
+    width: 33%;
+  }
+  nav .languages a {
+    border-left: 1px solid #545454;
+    padding: 10%;
+  }
+  nav .languages li:first-child a {
+    border-left: none;
+  }
+  /********************
+SECTION
+********************/
+  section > p,
+  section > h3,
+  section > h4,
+  section .mobile-padding {
+    padding: 0 5%;
+  }
+  /********************
+FOOTER
+********************/
+  footer {
+    border-top: 1px solid #606060;
+  }
+}
+
+/* variables.less */
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+/********************
+COLORS
+********************/
+/********************
+SIZES
+********************/

@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Portfolio 1.0\n"
+"POT-Creation-Date: 2015-01-08 14:59+0100\n"
+"PO-Revision-Date: 2015-01-08 17:53+0100\n"
+"Last-Translator: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
+"Language-Team: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+"X-Poedit-SearchPathExcluded-0: ../../../grunt\n"
+"X-Poedit-SearchPathExcluded-1: ../../../vendor\n"
+
+#: ../../../data/Routes-ovh.php:10 ../../../data/Routes.php:10
+msgid "Home"
+msgstr "หน้าแรก"
+
+#: ../../../data/Routes-ovh.php:16 ../../../data/Routes.php:16
+msgid "Works"
+msgstr "ผลงาน"
+
+#: ../../../data/Routes-ovh.php:22 ../../../data/Routes.php:22
+msgid "Work"
+msgstr "ผลงาน"
+
+#: ../../../data/Routes-ovh.php:30 ../../../data/Routes.php:30
+msgid "Résumé"
+msgstr "ประวัติย่อ"
+
+#: ../../../data/Routes-ovh.php:36 ../../../data/Routes.php:36
+msgid "Blog"
+msgstr "บล็อก"
+
+#: ../../../data/Routes-ovh.php:42 ../../../data/Routes.php:42
+msgid "Contact"
+msgstr "ติดต่อ"
+
+#: ../../../data/Wisdom.php:5 ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:50
+msgid "No matter how far down the wrong road you've gone, turn back."
+msgstr "ไม่ว่าจะเดินผิดทางมาไกลแค่ไหน ก็ยังหันหลังกลับมาได้เสมอ"
+
+#: ../../../data/Wisdom.php:6
+msgid "A Turkish proverb"
+msgstr "ภาษิตตุรกี"
+
+#: ../../../data/Wisdom.php:10
+msgid ""
+"Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out "
+"death in judgement."
+msgstr "หลายชีวิตสมควรตาย และหลายชีวิตที่ตายสมควรอยู่ เจ้าคืนชีวิตให้พวกเขาได้ไหมล่ะ จงอย่าคิดตัดสินชะตาชีวิตใครต่อใครดีกว่า"
+
+#: ../../../data/Wisdom.php:11
+msgid "Gandalf"
+msgstr "แกนดัล์ฟ"
+
+#: ../../../data/Wisdom.php:15
+msgid "The beginning is the most important part of the work."
+msgstr "การเริ่มต้นเป็นส่วนสำคัญที่สุดของงานที่จะทำ"
+
+#: ../../../data/Wisdom.php:16
+msgid "Plato"
+msgstr "เพลโต"
+
+#: ../../../data/Works.php:6
+msgid "Programming"
+msgstr "โปรแกรมมิง"
+
+#: ../../../data/Works.php:7
+msgid "Software and website development."
+msgstr "โปรแกรมและเว็บไซต์"
+
+#: ../../../data/Works.php:12
+msgid "Artistic"
+msgstr "ศิลป"
+
+#: ../../../data/Works.php:13
+msgid "Artistic works (images, music, etc)."
+msgstr "งานศิลปะ (รูป เสียง ฯลฯ)"
+
+#: ../../../data/Works.php:18
+msgid "Photo albums"
+msgstr "อัลบั้มรูป"
+
+#: ../../../data/Works.php:19
+msgid "Photos from trips and everyday life."
+msgstr "รูปที่ถ่ายเวลาเที่ยวหรือในชีวิตประจำวัน"
+
+#: ../../../data/Works.php:24
+msgid "Miscellaneous"
+msgstr "อื่นๆ"
+
+#: ../../../data/Works.php:25
+msgid "Other works..."
+msgstr "ผลงานอื่นๆ"
+
+#: ../../../data/Works.php:32
+msgid "GNU GPLv3"
+msgstr "GNU GPLv3"
+
+#: ../../../data/Works.php:37
+msgid "WTFPL"
+msgstr "WTFPL"
+
+#: ../../../data/Works.php:42
+msgid "MIT"
+msgstr "MIT"
+
+#: ../../../data/Works.php:47
+msgid "CC BY-SA 4.0"
+msgstr "CC BY-SA 4.0"
+
+#: ../../../data/Works.php:56
+msgid "A highly configurable Tetris clone"
+msgstr "เกมเตตริส"
+
+#: ../../../data/Works.php:66
+msgid "A mix between Ping Pong and Bricks Breaking games"
+msgstr "เกมทำลายอิฐผสมปิงปอง"
+
+#: ../../../data/Works.php:76
+msgid "A very basic C library for the handling of polynomials"
+msgstr "ไลบรารี่ภาษาซีสำหรับพหุนาม"
+
+#: ../../../data/Works.php:86
+msgid "A photo sharing website"
+msgstr "เว็บไซต์แลกเปลี่ยนรูป"
+
+#: ../../../data/Works.php:96
+msgid "A theme for PluXML blogs"
+msgstr "ธีมสำหรับบล็อกที่สร้างด้วย PluXML"
+
+#: ../../../data/Works.php:106
+msgid "My portfolio website which you're currently browsing!"
+msgstr "เว็บไซต์ที่คุณกำลังอ่านอยู่"
+
+#: ../../../data/Works.php:116
+msgid "The website of Moonlight Champa guesthouse, Vientiane, Lao PDR"
+msgstr "เว็บไซต์สำหรับเกสต์เฮ้าส์ Moonlight Champa ที่เวียงจันทน์"
+
+#: ../../../data/Works.php:125
+msgid "Laos 2013"
+msgstr "ประเทศลาว 2556"
+
+#: ../../../data/Works.php:126
+msgid "Photos shot in Vientiane and Luang Prabang, Lao PDR"
+msgstr "รูปที่ถ่ายที่เวียงจันทน์และหลวงพระบาง"
+
+#: ../../../data/Works.php:135
+msgid "Korea 2012"
+msgstr "ประเทศเกาหลี 2555"
+
+#: ../../../data/Works.php:136
+msgid "Photos shot in South Korea during my summer school at Chonbuk National University"
+msgstr "รูปที่ถ่ายที่ประเทศเกาหลีใต้เวลาอยู่ที่ Chonbuk National University"
+
+#: ../../../data/Works.php:145
+msgid "Beijing 2013"
+msgstr "ปักกิ่ง 2556"
+
+#: ../../../data/Works.php:146
+msgid "Photos shot when doing a four-month internship in Beijing"
+msgstr "รูปที่ถ่ายที่ปักกิ่ง"
+
+#: ../../../data/Works.php:155
+msgid "Berlin 2014"
+msgstr "เบอร์ลิน 2557"
+
+#: ../../../data/Works.php:156
+msgid "Photos shot during a short trip to Berlin"
+msgstr "รูปที่ถ่ายที่เบอร์ลิน"
+
+#: ../../../data/Works.php:165
+msgid "France"
+msgstr "ประเทศฝรั่งเศส"
+
+#: ../../../data/Works.php:166
+msgid "Photos shot over the years in France"
+msgstr "รูปที่ถ่านที่ประเทศฝรั่งเศส"
+
+#: ../../../data/Works.php:175
+msgid "Thailand 2014"
+msgstr "เมืองไทย 2557"
+
+#: ../../../data/Works.php:176
+msgid "Photos shot in Thailand in 2014"
+msgstr "รูปที่ถ่ายที่เมืองไทยในปี 2557"
+
+#: ../../../data/Works.php:185
+msgid "Other pictures"
+msgstr "รูปอื่นๆ"
+
+#: ../../../data/Works.php:186
+msgid "Miscellaneous pictures"
+msgstr "รูปอื่นๆ"
+
+#: ../../../data/Works.php:195
+msgid "Stress"
+msgstr "ความเครียด"
+
+#: ../../../data/Works.php:196
+msgid "A short audio work trying to depict the rise of stress"
+msgstr "เพลงสั้นเรื่องความเครียด"
+
+#: ../../../data/Works.php:205
+msgid "Apartom"
+msgstr "Apartom"
+
+#: ../../../data/Works.php:206
+msgid "A picture about a man and a woman who are apart even though they're sitting close to each other"
+msgstr "รูปเรื่องผู้ชายและผู้หญิงที่ไกลกันมากแม้ว่านั่งใกล้ๆกัน"
+
+#: ../../../data/Works.php:215
+msgid "Blazon"
+msgstr "ตรา"
+
+#: ../../../data/Works.php:216
+msgid "A visual description of my values and my roots"
+msgstr ""
+
+#: ../../../data/Works.php:225
+msgid "Schwann internship report"
+msgstr "รายงานการฝึกงานที่Schwann"
+
+#: ../../../data/Works.php:226
+msgid "A report on my four-month internship at Schwann"
+msgstr "รายงานการฝึกงานสี่เดือนที่Schwann"
+
+#: ../../../data/Works.php:235
+msgid "Overhaul plan for Soleilprod"
+msgstr "แผนยกเครื่องเว็บไซต์ Soleilprod"
+
+#: ../../../data/Works.php:236
+msgid "An overhaul plan for soleilprod.com website"
+msgstr "แผนยกเครื่องเว็บไซต์ soleilprod.com"
+
+#: ../../../data/works/Apartom.php:5
+msgid ""
+"After a teacher showed me the video of the encounter of artists Marina Abramović and Ulay in 2010, he asked me to make some "
+"visual work to express how I felt about this moment. I decided to depict them like two heaps of geometric shapes (triangles "
+"and circles) because I have the feeling that at the smallest scale, every human being is a heap of atoms, and our emotions "
+"are dictated by a set of chimical reactions and by the brain."
+msgstr ""
+
+#: ../../../data/works/Apartom.php:11
+msgid "Check out the video of Abramović and Ulay on Youtube"
+msgstr "ดูวิดีโอเรื่อง Abramović และ Ulay บน Youtube"
+
+#: ../../../data/works/Arkanopong.php:8
+msgid "A level in Arkanopong"
+msgstr "กำลังเล่น Arkanopong อยู่"
+
+#: ../../../data/works/Arkanopong.php:14
+msgid "The main menu allows you to change some settings and to select the level to play"
+msgstr "หน้าแรกมีหลายตัวเลือก"
+
+#: ../../../data/works/Arkanopong.php:19
+msgid ""
+"Arkanopong is a mix between Ping Pong and Bricks Breaking games. You can play with another human or against the computer (its "
+"IA is basic but does the job)."
+msgstr "เกมทำลายอิฐผสมปิงปอง เล่นกับคนอื่นหรือคอมพิวเตอร์ได้"
+
+#: ../../../data/works/Arkanopong.php:21
+msgid ""
+"Arkanopong uses OpenGL 2 and its fixed function pipeline for the rendering. It may run on any platform supported by OpenGL2 "
+"and the SDL library (which is used to create the window and capture events)."
+msgstr "Arkanopong ใช้ไลบรารี่ OpenGL 2 และ SDL"
+
+#: ../../../data/works/Arkanopong.php:23
+msgid ""
+"This project was fun to work on but if I could re-write it, I'd do it differently. The biggest difficulty I ran into was to "
+"render text. At first, I intended to render the text with Freetype library, but due to the strict deadline I didn't have time "
+"to learn how to use it. In the end, since all the text in the game is fixed and never changes, I chose to render it with "
+"SDL_image and then convert it to hardware textures."
+msgstr "เวลาผมทำโปรเจคนี้ผมสนุก แต่ตอนนี้ผมพอใจเรื่องคุณภาพของโค้ดแล้ว"
+
+#: ../../../data/works/Arkanopong.php:27 ../../../data/works/Blockmatic.php:25 ../../../data/works/Polynomials.php:11
+msgid "C programming language"
+msgstr "ภาษาซี"
+
+#: ../../../data/works/Arkanopong.php:29
+msgid "SDL library"
+msgstr "ไลบรารี่ SDL"
+
+#: ../../../data/works/Arkanopong.php:35
+msgid "Download the source code of Arkanopong"
+msgstr "บรรจุลงโค้ดของ Arkanopong"
+
+#: ../../../data/works/Arkanopong.php:40
+msgid "Download the work report I had to write for my teacher (it's only in French)"
+msgstr "บรรจุลงรายงานโปรเจค(เป็นภาษาฝรั่งเศส)"
+
+#: ../../../data/works/Bareview.php:8
+msgid "Bareview on my old blog"
+msgstr "Bareview ที่บล็อกเก่าของผม"
+
+#: ../../../data/works/Bareview.php:13
+msgid "Bareview is a theme for the blog engine Pluxml 5.1. It was designed to give a feeling of \"straight to the point\"."
+msgstr "Bareview เป็นธีมสำหรับบล็อกซอฟต์แวร์ PluXML 5.1."
+
+#: ../../../data/works/Bareview.php:15
+msgid "I created it to provide a more personal look to my old blog. I no longer use it nor maintain it."
+msgstr ""
+
+#: ../../../data/works/Bareview.php:26
+msgid "Download the source code of Bareview"
+msgstr "บรรจุลงโค้ดของ Bareview"
+
+#: ../../../data/works/Beijing 2013.php:15
+msgid "Chaoyang park, Beijing"
+msgstr "สวน Chaoyang ที่ปักกิ่ง"
+
+#: ../../../data/works/Beijing 2013.php:20
+msgid "Mind your step in the Forbidden City"
+msgstr "\\\"Mind your step\\\" ในพระราชวังต้องห้าม"
+
+#: ../../../data/works/Beijing 2013.php:29
+msgid "Near the Jinshanling section of the Great Wall"
+msgstr "ใกล้ๆกำแพงเมืองจีนที่ Jinshanling"
+
+#: ../../../data/works/Beijing 2013.php:46
+msgid "The Great Wall of Mutianyu"
+msgstr "กำแพงเมืองจีนที่ Mutianyu"
+
+#: ../../../data/works/Beijing 2013.php:51
+msgid "Children in primary school gather in the early morning"
+msgstr "เด็กๆข้างนอกโรงเรียนตอนเช้า"
+
+#: ../../../data/works/Beijing 2013.php:64
+msgid ""
+"I spent four months in Beijing when I did an internship there in 2013. I had the opportunity to visit many places (the Great "
+"Wall, the Forbidden City, many parks...)."
+msgstr "ผมอยู่ที่ปักกิ่งสี่เดือกเวลาฝึกงานในปี2556 ผมได้ไปเที่ยวที่ที่เยอะๆ เช่น กำแพงเมืองจีน พระราชวังต้องห้าม สวน และอื่นๆ"
+
+#: ../../../data/works/Berlin 2014.php:7
+msgid "Alexanderplatz subway station"
+msgstr "สถานีรถไฟใต้ดิน Alexanderplatz"
+
+#: ../../../data/works/Berlin 2014.php:16
+msgid "Brandenburg gate"
+msgstr "ประตูบรันเดนบูร์ก"
+
+#: ../../../data/works/Berlin 2014.php:21
+msgid "Holocaust Memorial"
+msgstr "อนุสรณ์สถานฮอโลคอสต์"
+
+#: ../../../data/works/Berlin 2014.php:26
+msgid "Natural History Museum"
+msgstr "พิพิธภัณฑ์ประวัติศาสตร์ธรรมชาติ"
+
+#: ../../../data/works/Berlin 2014.php:31
+msgid "The Reichstag"
+msgstr "Reichstag"
+
+#: ../../../data/works/Berlin 2014.php:44
+msgid "The river Spree"
+msgstr "แม่น้ำ Spree"
+
+#: ../../../data/works/Berlin 2014.php:49
+msgid "Berlin is famous for its street art"
+msgstr ""
+
+#: ../../../data/works/Berlin 2014.php:62
+msgid "Tempelhof Feld, an airport turned into a vast public park"
+msgstr "สวนสาธารณะ Tempelhof Feld เคยเป็นสนามบิน"
+
+#: ../../../data/works/Berlin 2014.php:67
+msgid "Photos of a short trip in Berlin."
+msgstr "รูปที่ถ่ายเวลาไปเที่ยวที่เบอร์ลินสามสี่วัน"
+
+#: ../../../data/works/Blazon.php:5
+msgid ""
+"A few years ago, a teacher asked me to produce a blazon that would represent my values. This blazon represents my will to "
+"thrive. The different parts symbolize the body and the mind, both of which are the vital material for life."
+msgstr ""
+
+#: ../../../data/works/Blockmatic.php:8
+msgid "Blockmatic after some tweaking"
+msgstr ""
+
+#: ../../../data/works/Blockmatic.php:14
+msgid "Blockmatic when paused"
+msgstr ""
+
+#: ../../../data/works/Blockmatic.php:19
+msgid ""
+"Blockmatic is a highly configurable Tetris clone. You can tweak it via the command line interface (blockmatic --help for the "
+"list of all available options)."
+msgstr ""
+
+#: ../../../data/works/Blockmatic.php:21
+msgid ""
+"I'm an unconditional fan of Tetris and I wanted to have a game that I could adapt to my needs. It was also a great "
+"opportunity to discover the SDL2 library for game development."
+msgstr ""
+
+#: ../../../data/works/Blockmatic.php:26
+msgid "SDL2 library"
+msgstr "ไลบรารี่ SDL2"
+
+#: ../../../data/works/Blockmatic.php:32
+msgid "Download the source code of Blockmatic"
+msgstr "บรรจุลงโค้ดของ Blockmatic"
+
+#: ../../../data/works/Blockmatic.php:37
+msgid "Download Blockmatic for Windows"
+msgstr "บรรจุลง Blockmatic สำหรับวินโดวส์"
+
+#: ../../../data/works/Blockmatic.php:42
+msgid "Download Blockmatic for Linux (32 bits)"
+msgstr "บรรจุลง Blockmatic สำหรับลีนุกซ์(32บิต)"
+
+#: ../../../data/works/Blockmatic.php:47
+msgid "Download Blockmatic for Linux (64 bits)"
+msgstr "บรรจุลง Blockmatic สำหรับลีนุกซ์(64บิต)"
+
+#: ../../../data/works/Demoshot.php:8
+msgid "A user's album page, with sorting buttons and pagination controls"
+msgstr ""
+
+#: ../../../data/works/Demoshot.php:13
+msgid ""
+"Demoshot is a photo sharing website. Its users can (after signing up) upload photos, give marks and comment on other people's "
+"pictures. The photos can be associated with tags and easily managed in each user's album. Demoshot's UI is built upon Twitter "
+"Bootstrap. The underlying database management system is MySQL."
+msgstr ""
+
+#: ../../../data/works/Demoshot.php:15
+msgid ""
+"During my second year of undergraduate studies, the PHP teacher asked the students to develop a photo sharing website from "
+"scratch. Back then I was not very comfortable with PHP. As a result, it is not a project I'm very proud to show: the overall "
+"architecture is messy and the code itself is not a pleasant read, even though it's commented. However, I'm proud that I was "
+"able to develop my first complete website in a short time and all by myself. I have learnt a lot thanks to it."
+msgstr ""
+
+#: ../../../data/works/Demoshot.php:28
+msgid "Download the source code of Demoshot"
+msgstr "บรรจุลงโค้ดของ Demoshot"
+
+#: ../../../data/works/Demoshot.php:33
+msgid "Check out the demo"
+msgstr "เข้าดู"
+
+#: ../../../data/works/France.php:7
+msgid "Winter is coming"
+msgstr "Winter is coming"
+
+#: ../../../data/works/France.php:12
+msgid "Beyond the grid"
+msgstr ""
+
+#: ../../../data/works/France.php:97
+msgid ""
+"This is a collection of photos I have taken over the past years. From time to time, I notice something beautiful or weird, "
+"and I do my best to capture it."
+msgstr ""
+
+#: ../../../data/works/Korea 2012.php:15
+msgid "Taking a bus from Incheon airport"
+msgstr "ในรถทัวร์ของสนามบินอินชอน"
+
+#: ../../../data/works/Korea 2012.php:42
+#, php-format
+msgid ""
+"In 2012, I had the opportunity to visit Korea and attend a summer school for three weeks in %s. During my stay, I took a lot "
+"of photos, but I decided only to select a few interesting ones for this album."
+msgstr ""
+
+#: ../../../data/works/Korea 2012.php:43
+msgid "Visit the website of Chonbuk National University"
+msgstr "เข้าดูเว็บไซต์ของ Chonbuk National University"
+
+#: ../../../data/works/Korea 2012.php:43
+msgid "Chonbuk National University"
+msgstr "Chonbuk National University"
+
+#: ../../../data/works/Laos 2013.php:7
+msgid "In Buddha park, near Vientiane"
+msgstr "สวนพระ ใกลๆเวียงจันทน์"
+
+#: ../../../data/works/Laos 2013.php:12
+msgid "The emblem of Laos"
+msgstr "ตราของประเทศลาว"
+
+#: ../../../data/works/Laos 2013.php:17
+msgid "Strolling in Luang Prabang"
+msgstr "เดินเล่นที่หลวงพระบาง"
+
+#: ../../../data/works/Laos 2013.php:22 2013.php:27
+msgid "Luang Prabang"
+msgstr "หลวงพระบาง"
+
+#: ../../../data/works/Laos 2013.php:32
+msgid "The Mekong in the morning"
+msgstr "แม่น้ำโขงตอนเช้า"
+
+#: ../../../data/works/Laos 2013.php:37
+msgid "Nam Phou fountain, Vientiane."
+msgstr "น้ำพุที่เวียงจันทน์"
+
+#: ../../../data/works/Laos 2013.php:42
+msgid "The Patuxai (victory monument), Vientiane."
+msgstr "ประตูชัยที่เวียงจันทน์"
+
+#: ../../../data/works/Laos 2013.php:47
+msgid "In Pha That Luang, Vientiane."
+msgstr "พระธาตุหลวงที่เวียงจันทน์"
+
+#: ../../../data/works/Laos 2013.php:57
+msgid "In 2013, I explored two cities in Laos: Vientiane and Luang Prabang."
+msgstr "ในปี2556ผมไปเที่ยวที่เวียงจันทน์และหลวงพระบาง"
+
+#: ../../../data/works/Moonlight Champa.php:8
+msgid "The home page of Moonlight Champa"
+msgstr "หน้าแรกของเว็บไซต์"
+
+#: ../../../data/works/Moonlight Champa.php:14
+msgid "A page listing all available rooms and their rates"
+msgstr "ห้องนอนและราคา"
+
+#: ../../../data/works/Moonlight Champa.php:19
+msgid ""
+"Moonlight Champa is a guesthouse in Vientiane, Lao PDR. This website aims at attracting travelers and allows them to book a "
+"room."
+msgstr "Moonlight Champa เป็นเกส์ตเฮาส์ที่เวียงจันทน์ เว็บไซต์นี้สำหรับนักท่องเที่ยวที่หาเกส์ตเฮาส์และอาจจะจองห้องนอน"
+
+#: ../../../data/works/Moonlight Champa.php:21
+msgid ""
+"Moonlight Champa is built on top of Slim (a PHP micro-framework). I developed a first version of the website in 2013, then I "
+"created a second version during summer 2014 and made it responsive to enhance the experience of smartphone users."
+msgstr "Moonlight Champa สร้างด้วย Slim (ไลบรารี่ PHP) ผมสร้างเว็บไซต์แรกในปี2556แล้วสร้างเว็บไซต์ที่สองในฤดูร้อนปี2557"
+
+#: ../../../data/works/Moonlight Champa.php:23
+msgid ""
+"I created this website for my friends who own the guesthouse, and because it is an awesome place to stay, when visiting "
+"Vientiane."
+msgstr "ผมสร้างเว็บไซต์สำหรับเพื่อนที่เป็นเจ้อของเกส์ตเฮาส์และเพราะมันคงเป็นเกส์ตเฮาส์ที่สบายที่สุดที่เวียงจันทน์"
+
+#: ../../../data/works/Moonlight Champa.php:35
+msgid "Check it out!"
+msgstr "เข้าดู"
+
+#: ../../../data/works/Other pictures.php:19
+msgid "Do you recognize this photo? Can you find its twin in another album?"
+msgstr "รู้จักรูปนี้หรอ อัลบั้มอื่นมีรูปที่คล้ายมันมาก ลองหาดูนะ"
+
+#: ../../../data/works/Other pictures.php:24
+msgid "In this album, you will find pictures that didn't belong to any other album."
+msgstr "อัลบั้มนี้มีรูปที่เข้ากับรูปอื่นไม่ได้"
+
+#: ../../../data/works/Polynomials.php:5
+msgid ""
+"Polynomials is a basic C library for polynomials arithmetic. It is not optimized and only provides the most basic operations "
+"(evaluating a polynomial, derivating it)."
+msgstr "Polynomials เป็นไลบรารี่ภาษาซีสำหรับพหุนาม มันไม่เร็วและมีฟีเจอร์ไม่เยอะ"
+
+#: ../../../data/works/Polynomials.php:7
+msgid "It is plain C (a C99-friendly compiler is required) and doesn't require any third-party library."
+msgstr "มันเขียนเป็นภาษาซี ไม่ต้องการสักไลบรารี่"
+
+#: ../../../data/works/Polynomials.php:17
+msgid "Download the source code of Polynomials"
+msgstr "บรรจุลงโค้ดของ Polynomials"
+
+#: ../../../data/works/Portfolio.php:8
+msgid "Does it feel familiar?"
+msgstr "รู้จักหรอ"
+
+#: ../../../data/works/Portfolio.php:13
+msgid "This is my personal website."
+msgstr "มันคือเว็บไซต์ของผม"
+
+#: ../../../data/works/Rapport Schwann.php:7
+#, php-format
+msgid "This is a report about my four-month internship in Beijing, from April to July 2013. I was a web developer intern at %s."
+msgstr "มันเป็นรายงานเรื่องการฝึกงานสี่เดือนที่ปักกิ่งตั้งแต่เมษายนถึงกรกฎาคมในปี2556 ผมเคยเป็นนักพัฒนาเว็บที่ %s."
+
+#: ../../../data/works/Rapport Schwann.php:8
+msgid "Visit the website of Schwann"
+msgstr "เข้าดูเว็บไซต์ของ Schwann"
+
+#: ../../../data/works/Rapport Schwann.php:8
+msgid "Schwann web agency"
+msgstr "Schwann web agency"
+
+#: ../../../data/works/Rapport Schwann.php:16
+msgid "Download the report (only in French)"
+msgstr "บรรจุลงรายงาน(เป็นภาษาฝรั่งเศส)"
+
+#: ../../../data/works/Refonte Soleilprod.php:7
+#, php-format
+msgid ""
+"Soleil is a big French comic book publisher. This document describes a detailed overhaul plan for %s. It contains a study of "
+"their current website and their concurrents, and models for a new website. The work was done in team with Juliette Belin, "
+"Alice Neichols and Andréas Pinbouen. The design of the document was done by Andréas Pinbouen."
+msgstr ""
+
+#: ../../../data/works/Refonte Soleilprod.php:8
+msgid "Visit the website of Soleil"
+msgstr "เข้าดูเว็บไซต์ของ Soleil"
+
+#: ../../../data/works/Refonte Soleilprod.php:8
+msgid "Soleil's website"
+msgstr "เว็บไซต์ของ Soleil"
+
+#: ../../../data/works/Refonte Soleilprod.php:16
+msgid "Download the document (only in French)"
+msgstr "บรรจุลงรายงาน(เป็นภาษาฝรั่งเศส)"
+
+#: ../../../data/works/Stress.php:5
+msgid ""
+"Stress is an attempt to create a short (2-minute-long) music about stress and losing control. The music consists of three "
+"parts: the rise of stress, an attempt to cool down and lastly, the failure and the final collapse."
+msgstr ""
+
+#: ../../../data/works/Stress.php:7
+msgid "Stress was created using Protools and its plugin Xpand2. Most of the work consisted in editing MIDI tracks."
+msgstr ""
+
+#: ../../../data/works/Stress.php:12
+msgid "Listen to Stress:"
+msgstr "ลองฟังดู"
+
+#: ../../../data/works/Stress.php:28
+msgid "Download the Protools project directory"
+msgstr "บรรจุลงไฟล์ Protools"
+
+#: ../../../data/works/Thailand 2014.php:7
+msgid "In Ayutthaya, former capital of a past Siam kingdom"
+msgstr "ที่อยุธยา"
+
+#: ../../../data/works/Thailand 2014.php:12 2014.php:17
+msgid "Ayutthaya"
+msgstr "ที่อยุธยา"
+
+#: ../../../data/works/Thailand 2014.php:22 2014.php:27
+msgid "Benchakitti park, Bangkok"
+msgstr "สวนเบญจกิติ"
+
+#: ../../../data/works/Thailand 2014.php:40
+msgid "Chiang Mai train station"
+msgstr "สถานีรถไฟที่เชียงใหม่"
+
+#: ../../../data/works/Thailand 2014.php:45
+msgid "A waterfall near Chiang Rai"
+msgstr "น้ำตกที่เชียงราย"
+
+#: ../../../data/works/Thailand 2014.php:62
+msgid "In Krabi town"
+msgstr "ที่กระบี่"
+
+#: ../../../data/works/Thailand 2014.php:67
+msgid "In Lumphini park, Bangkok"
+msgstr "ที่สวนลุมพินี"
+
+#: ../../../data/works/Thailand 2014.php:72
+msgid "Floods in the new town of Sukhothai"
+msgstr "น้ำท่วมที่สุโขทัย"
+
+#: ../../../data/works/Thailand 2014.php:77
+msgid "On the banks of the Chao Phraya, Bangkok"
+msgstr "เจ้าพระยา"
+
+#: ../../../data/works/Thailand 2014.php:86
+msgid "Rama 8 bridge, Bangkok"
+msgstr "สะพานพระราม 8"
+
+#: ../../../data/works/Thailand 2014.php:91
+msgid "Strolling in Samui"
+msgstr "เดินเล่นที่เกาะสมุย"
+
+#: ../../../data/works/Thailand 2014.php:104
+msgid "In Sukhothai historical park"
+msgstr "สุโขทัย"
+
+#: ../../../data/works/Thailand 2014.php:113
+msgid "On the wall of a Buddhist temple: \\\"Eat to Live, Don't Live to Eat\\\""
+msgstr "บนกำแพงของวัด"
+
+#: ../../../data/works/Thailand 2014.php:118
+msgid "The beginning is the most important part of the work"
+msgstr "การเริ่มต้นเป็นส่วนสำคัญที่สุดของงานที่จะทำ"
+
+#: ../../../data/works/Thailand 2014.php:123
+msgid "The White Temple, in Chiang Rai"
+msgstr "วัดร่องขุ่นที่เชียงราย"
+
+#: ../../../data/works/Thailand 2014.php:128
+msgid "The White Temple in Chiang Rai, again"
+msgstr "วัดร่องขุ่นที่เชียงราย"
+
+#: ../../../data/works/Thailand 2014.php:133
+msgid "In one word: Thailand."
+msgstr "เมืองไทย"
+
+#: ../../../views_cache/1e/72/8697a176ea9a817346a52272d0c483775047783bebaf9d37227a774f1583.php:91
+msgid "Click to open the album viewer"
+msgstr "คลิกเพื่อดูทุกรูป"
+
+#: ../../../views_cache/1e/72/8697a176ea9a817346a52272d0c483775047783bebaf9d37227a774f1583.php:102
+msgid "Click the cover to enter the album."
+msgstr "คลิกรูปเพื่อเข้าในอัลบั้ม"
+
+#: ../../../views_cache/50/46/444e8343dc772e558f6a4672e445de376285246e6d121404b26fdbfdfeec.php:72
+msgid "Sorry, it seems that your browser is too old to play this audio!"
+msgstr "ขอโทษครับ เบราว์เซอร์ของคุณโหลดเสียงไม่ได้"
+
+#: ../../../views_cache/55/c9/9fa8053753c90e3cb5dd2d8ba5ac2ff40db7a75eef54c2ebc87a3b301315.php:27
+#: ../../../views_cache/5c/27/c7eb6f94eda67ad0f47a058a24115cd11c58e0929de7a035e24813fae512.php:46
+msgid "Menu"
+msgstr "เมนู"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:39
+msgid "What's your name?"
+msgstr "ชื่ออะไรครับ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:45
+msgid "I also need your email address"
+msgstr "ขอที่อยู่อีเมล์ได้ไหมครับ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:51
+msgid "Feel free to express yourself"
+msgstr "บอกอะไรก็ได้ครับ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:58
+msgid "Please answer this math question: "
+msgstr "โปรดคำนวณ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:61
+msgid "math question"
+msgstr "คำนวณ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:76
+msgid "Send!"
+msgstr "ส่ง"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:83
+msgid "Thank you for your message!"
+msgstr "ขอบคุณครับที่ส่งข้อความ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:89
+msgid "Sorry, the server isn't responding! Please check your internet connection."
+msgstr "ขอโทษครับ ไม่ได้พบเซิร์ฟเรอร์ คุณเชื่อมต่ออินเตอร์เน็ตดีไหมครับ"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:96
+msgid "Sorry, it took you too long to send the form! Please refresh the page and try again."
+msgstr "ขอโทษครับ ส่งฟอร์มใช้เวลาเยอะเกินไป โปรดลองอีกครั้ง"
+
+#: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:103
+msgid "Sorry, the message couldn't be sent! I'll address this problem as soon as possible. Thank you for your interest."
+msgstr "ขอโทษครับ ไม่ได้ส่งข้อความ ผมจะพยายามซ่อมบั๊กเร็วๆ ขอบคุณที่ลองส่งข้อความ"
+
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:32
+msgid "Page not found!"
+msgstr "ไม่พบหน้าที่ต้องการ"
+
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:45
+msgid "A Turkish Proverb says: "
+msgstr "ภาษิตตุรกีบอกว่า"
+
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:60
+msgid "Go back home"
+msgstr "กลับหน้าแรก"
+
+#: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:62
+msgid "Are you lost? Go back home!"
+msgstr "หลงทางหรือเปล่า กลับหน้าแรกเถอะ"
+
+#: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:32
+msgid "Welcome!"
+msgstr "ยินดีต้อนรับ"
+
+#: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:44
+msgid ""
+"I am Matthieu Bresson. I'm a self-taught person, passionate about computer science and natural languages. I can dive in a "
+"book all day long, or spend hours tinkering with my GNU/Linux system. Although I was born and raised in France, I intend to "
+"work and settle abroad."
+msgstr ""
+"ผมชื่อ มาตติเออ เบรสซง ผมเป็นคนชอบเรียนเอง สนใจคอพิวเตอร์และภาษา ชอบอ่านหนังสือตลอดวัน แม้ว่าผมเกิดและเลี้ยงที่ประเทศฝรั่งเศส "
+"แต่ผมอยากทำงานและย้ายบ้านที่ต่างประเทศ"
+
+#: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:51
+msgid ""
+"The emblem of my website is a pathway through the woods, because life is a long and complicated path we must all walk. It's "
+"fine, I love strolling."
+msgstr "โลโก้ของเว็บไซต์เป็นทางเดินในป่าเพราะชีวิตเป็นทางเดินที่ยาวและที่เดินยาก ไม่เป็นไร ผมชอบเดินเล่น"
+
+#: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:57
+msgid "Enjoy your visit!"
+msgstr "เที่ยวให้สนุกครับ"
+
+#: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:68
+#, php-format
+msgid "%from% says:"
+msgstr "%from%บอกว่า"
+
+#: ../../../views_cache/cd/49/fe4f813c537ed585b872dacd489a6fb45b5439cf058b3b08654fbf0401ce.php:142
+msgid "License: %license_link%"
+msgstr "สิทธิการใช้งาน: %license_link%"
+
+#: ../../../views_cache/d0/6d/0d6aa023d21acdc6f554aa8acadf1edfcf25f4d802391d68f28f09377aa0.php:27
+msgid "A few screenshots:"
+msgstr "รูปๆ"
+
+#: ../../../views_cache/f4/d0/4e00656883a46ac2cb27b03fe272acc6a6a8191605f9e35dc8e7669b2185.php:36
+msgid "All categories"
+msgstr "ทุกชนิด"
+
+#: ../../../views_cache/f4/d0/4e00656883a46ac2cb27b03fe272acc6a6a8191605f9e35dc8e7669b2185.php:60
+msgid "All work contexts"
+msgstr "ทำทุกที่"
+
+#: ../../../views_cache/f4/d0/4e00656883a46ac2cb27b03fe272acc6a6a8191605f9e35dc8e7669b2185.php:64
+msgid "Personal projects"
+msgstr "ทำเอง"
+
+#: ../../../views_cache/f4/d0/4e00656883a46ac2cb27b03fe272acc6a6a8191605f9e35dc8e7669b2185.php:68
+msgid "School projects"
+msgstr "ทำที่มหาลัย"
+
+#: ../../../views_cache/f4/d0/4e00656883a46ac2cb27b03fe272acc6a6a8191605f9e35dc8e7669b2185.php:147
+msgid "No results!"
+msgstr "ไม่มีผลงาน"
+
+#~ msgid ""
+#~ "I am an amateur photographer with little pretension and skill. I strive to discover the weird and the beauty in the "
+#~ "ordinary."
+#~ msgstr "ผมไม่ใช่นักถ่ายรูปแต่ก็ยังชอบถ่ายอะไรที่สวยหรือน่าสนใจ"
+
+#~ msgid "Hi!"
+#~ msgstr "สวัสดีครับ"

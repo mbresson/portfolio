@@ -1,0 +1,107 @@
+/* mobile.less */
+
+/*** Created by **************************************
+Matthieu Bresson <bresson-matthieu_AT_orange_DOT_fr>
+*************************************************/
+
+
+@import 'variables.less';
+
+@media screen and (max-width: (@size-content-width - 1px)) {
+
+/********************
+HEADER
+********************/
+
+  header {
+    border-bottom: 1px solid lighten(@color-nav-link-border--mobile, 10%);
+  }
+
+  header .logo {
+    margin-right: 0;
+  }
+
+  header .menu-toggle {
+    z-index: 100;
+    position: relative;
+
+    cursor: pointer;
+
+    margin: 0;
+
+    line-height: @size-nav-height + @size-nav-padding-vertical * 1.5;
+    padding-bottom: @size-header-height - (@size-nav-height + @size-nav-padding-vertical * 1.5);
+
+    font-size: 4em;
+    text-align: center;
+    font-weight: normal;
+  }
+
+
+/********************
+NAV
+********************/
+
+  nav {
+    display: none;
+  }
+
+  nav ul {
+    clear: both;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    text-align: center;
+    padding: 3%;
+  }
+
+  nav .menu a {
+    font-size: 1.2em;
+    border-top: 1px solid @color-nav-link-border--mobile;
+  }
+
+  nav .languages {
+    display: table;
+    width: 100%;
+
+    border-top: 1px solid lighten(@color-nav-link-border--mobile, 5%);
+  }
+
+  nav .languages li {
+    display: table-cell;
+    width: 33%;
+  }
+
+  nav .languages a {
+    border-left: 1px solid lighten(@color-nav-link-border--mobile, 5%);
+    padding: 10%;
+  }
+
+  nav .languages li:first-child a {
+    border-left: none;
+  }
+
+
+/********************
+SECTION
+********************/
+
+  section > p, section > h3, section > h4, section .mobile-padding {
+    padding: 0 5%;
+  }
+
+
+/********************
+FOOTER
+********************/
+
+  footer {
+    border-top: 1px solid lighten(@color-nav-link-border--mobile, 10%);
+  }
+
+}
+
