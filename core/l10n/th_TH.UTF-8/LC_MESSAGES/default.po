@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portfolio 1.0\n"
 "POT-Creation-Date: 2015-01-08 14:59+0100\n"
-"PO-Revision-Date: 2015-01-08 17:53+0100\n"
+"PO-Revision-Date: 2015-01-15 22:22+0100\n"
 "Last-Translator: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
 "Language-Team: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -77,7 +77,7 @@ msgstr "โปรแกรมและเว็บไซต์"
 
 #: ../../../data/Works.php:12
 msgid "Artistic"
-msgstr "ศิลป"
+msgstr "ศิลปะ"
 
 #: ../../../data/Works.php:13
 msgid "Artistic works (images, music, etc)."
@@ -181,7 +181,7 @@ msgstr "ประเทศฝรั่งเศส"
 
 #: ../../../data/Works.php:166
 msgid "Photos shot over the years in France"
-msgstr "รูปที่ถ่านที่ประเทศฝรั่งเศส"
+msgstr "รูปที่ถ่ายที่ประเทศฝรั่งเศส"
 
 #: ../../../data/Works.php:175
 msgid "Thailand 2014"
@@ -277,7 +277,7 @@ msgid ""
 "render text. At first, I intended to render the text with Freetype library, but due to the strict deadline I didn't have time "
 "to learn how to use it. In the end, since all the text in the game is fixed and never changes, I chose to render it with "
 "SDL_image and then convert it to hardware textures."
-msgstr "เวลาผมทำโปรเจคนี้ผมสนุก แต่ตอนนี้ผมพอใจเรื่องคุณภาพของโค้ดแล้ว"
+msgstr "เวลาผมทำโปรเจคนี้ผมสนุก แต่ตอนนี้ผมไม่พอใจเรื่องคุณภาพของโค้ดแล้ว ถ้าจะต้องเขียนโค้ดครั้งใหม่ ผมจะทำอย่างอื่น"
 
 #: ../../../data/works/Arkanopong.php:27 ../../../data/works/Blockmatic.php:25 ../../../data/works/Polynomials.php:11
 msgid "C programming language"
@@ -335,7 +335,7 @@ msgstr "เด็กๆข้างนอกโรงเรียนตอนเ
 msgid ""
 "I spent four months in Beijing when I did an internship there in 2013. I had the opportunity to visit many places (the Great "
 "Wall, the Forbidden City, many parks...)."
-msgstr "ผมอยู่ที่ปักกิ่งสี่เดือกเวลาฝึกงานในปี2556 ผมได้ไปเที่ยวที่ที่เยอะๆ เช่น กำแพงเมืองจีน พระราชวังต้องห้าม สวน และอื่นๆ"
+msgstr "ผมอยู่ที่ปักกิ่งสี่เดือนเวลาฝึกงานในปี2556 ผมได้ไปเที่ยวที่ที่เยอะๆ เช่น กำแพงเมืองจีน พระราชวังต้องห้าม สวน และอื่นๆ"
 
 #: ../../../data/works/Berlin 2014.php:7
 msgid "Alexanderplatz subway station"
@@ -363,7 +363,7 @@ msgstr "แม่น้ำ Spree"
 
 #: ../../../data/works/Berlin 2014.php:49
 msgid "Berlin is famous for its street art"
-msgstr ""
+msgstr "ศิลปะกำแพงที่เบอร์ลิน"
 
 #: ../../../data/works/Berlin 2014.php:62
 msgid "Tempelhof Feld, an airport turned into a vast public park"
@@ -381,23 +381,23 @@ msgstr ""
 
 #: ../../../data/works/Blockmatic.php:8
 msgid "Blockmatic after some tweaking"
-msgstr ""
+msgstr "กำลังเล่น Blockmatic อยู่"
 
 #: ../../../data/works/Blockmatic.php:14
 msgid "Blockmatic when paused"
-msgstr ""
+msgstr "Blockmatic หยุดชั่วคราว"
 
 #: ../../../data/works/Blockmatic.php:19
 msgid ""
 "Blockmatic is a highly configurable Tetris clone. You can tweak it via the command line interface (blockmatic --help for the "
 "list of all available options)."
-msgstr ""
+msgstr "Blockmatic เป็นเกมเตตริสที่ปรับได้ด้วยบรรทัดคำสั่ง(blockmatic --help ช่วยได้)"
 
 #: ../../../data/works/Blockmatic.php:21
 msgid ""
 "I'm an unconditional fan of Tetris and I wanted to have a game that I could adapt to my needs. It was also a great "
 "opportunity to discover the SDL2 library for game development."
-msgstr ""
+msgstr "ผมทำ Blockmatic เพราะติดเกมเตตริสและอยากทำโปรเจคที่ใช้ไลบรารี่ SDL2"
 
 #: ../../../data/works/Blockmatic.php:26
 msgid "SDL2 library"
@@ -421,14 +421,14 @@ msgstr "บรรจุลง Blockmatic สำหรับลีนุกซ์
 
 #: ../../../data/works/Demoshot.php:8
 msgid "A user's album page, with sorting buttons and pagination controls"
-msgstr ""
+msgstr "เพจอัลบั้ม"
 
 #: ../../../data/works/Demoshot.php:13
 msgid ""
 "Demoshot is a photo sharing website. Its users can (after signing up) upload photos, give marks and comment on other people's "
 "pictures. The photos can be associated with tags and easily managed in each user's album. Demoshot's UI is built upon Twitter "
 "Bootstrap. The underlying database management system is MySQL."
-msgstr ""
+msgstr "Demoshot เป็นเว็บไซต์แลกเปลี่ยนรูป ผู้ใช้อัพโหลดรูปและเขียนความเห็นเรื่องรูปของผู้ใช้คนอื่นได้ Demoshot สร้างด้วย PHP และ MySQL"
 
 #: ../../../data/works/Demoshot.php:15
 msgid ""
@@ -436,7 +436,7 @@ msgid ""
 "scratch. Back then I was not very comfortable with PHP. As a result, it is not a project I'm very proud to show: the overall "
 "architecture is messy and the code itself is not a pleasant read, even though it's commented. However, I'm proud that I was "
 "able to develop my first complete website in a short time and all by myself. I have learnt a lot thanks to it."
-msgstr ""
+msgstr "Demoshot เป็นโปรเจคเก่า เพราะเวลาสร้างผมยังรู้ภาษา PHP ไม่มาก ผมจึงไม่พอใจเรื่องคุณภาพของโค้ดแล้ว แต่ก็ยังพอใจที่ได้สร้างเว็บไซต์นี้คนเดียว"
 
 #: ../../../data/works/Demoshot.php:28
 msgid "Download the source code of Demoshot"
@@ -458,7 +458,7 @@ msgstr ""
 msgid ""
 "This is a collection of photos I have taken over the past years. From time to time, I notice something beautiful or weird, "
 "and I do my best to capture it."
-msgstr ""
+msgstr "รูปที่ถ่ายหลายปีแล้ว บางทีผมได้เห็นสิ่งที่สวยหรือแปลกที่น่าถ่าย"
 
 #: ../../../data/works/Korea 2012.php:15
 msgid "Taking a bus from Incheon airport"
@@ -469,7 +469,7 @@ msgstr "ในรถทัวร์ของสนามบินอินชอ
 msgid ""
 "In 2012, I had the opportunity to visit Korea and attend a summer school for three weeks in %s. During my stay, I took a lot "
 "of photos, but I decided only to select a few interesting ones for this album."
-msgstr ""
+msgstr "ผมไปเที่ยวที่ประเทศเกาหลีใต้และเรียนที่ %s สามอาทิตย์ในปี2555"
 
 #: ../../../data/works/Korea 2012.php:43
 msgid "Visit the website of Chonbuk National University"
@@ -481,7 +481,7 @@ msgstr "Chonbuk National University"
 
 #: ../../../data/works/Laos 2013.php:7
 msgid "In Buddha park, near Vientiane"
-msgstr "สวนพระ ใกลๆเวียงจันทน์"
+msgstr "สวนพระ ใกล้ๆเวียงจันทน์"
 
 #: ../../../data/works/Laos 2013.php:12
 msgid "The emblem of Laos"
@@ -533,13 +533,13 @@ msgstr "Moonlight Champa เป็นเกส์ตเฮาส์ที่เ�
 msgid ""
 "Moonlight Champa is built on top of Slim (a PHP micro-framework). I developed a first version of the website in 2013, then I "
 "created a second version during summer 2014 and made it responsive to enhance the experience of smartphone users."
-msgstr "Moonlight Champa สร้างด้วย Slim (ไลบรารี่ PHP) ผมสร้างเว็บไซต์แรกในปี2556แล้วสร้างเว็บไซต์ที่สองในฤดูร้อนปี2557"
+msgstr "Moonlight Champa สร้างด้วย Slim Framework (ไลบรารี่ PHP) ผมสร้างเว็บไซต์แรกในปี2556แล้วสร้างเว็บไซต์ที่สองในฤดูร้อนปี2557"
 
 #: ../../../data/works/Moonlight Champa.php:23
 msgid ""
 "I created this website for my friends who own the guesthouse, and because it is an awesome place to stay, when visiting "
 "Vientiane."
-msgstr "ผมสร้างเว็บไซต์สำหรับเพื่อนที่เป็นเจ้อของเกส์ตเฮาส์และเพราะมันคงเป็นเกส์ตเฮาส์ที่สบายที่สุดที่เวียงจันทน์"
+msgstr "ผมสร้างเว็บไซต์นี้สำหรับเพื่อนที่เป็นเจ้าของเกส์ตเฮาส์และเพราะที่นั้นคงคือเกส์ตเฮาส์ที่สบายที่สุดที่เวียงจันทน์"
 
 #: ../../../data/works/Moonlight Champa.php:35
 msgid "Check it out!"
@@ -620,7 +620,7 @@ msgstr ""
 
 #: ../../../data/works/Stress.php:7
 msgid "Stress was created using Protools and its plugin Xpand2. Most of the work consisted in editing MIDI tracks."
-msgstr ""
+msgstr "ผมทำ ความเครียด ด้วยโปรแกรม Protools และ Xpand2"
 
 #: ../../../data/works/Stress.php:12
 msgid "Listen to Stress:"
@@ -749,11 +749,11 @@ msgstr "ขอโทษครับ ไม่ได้พบเซิร์ฟ�
 
 #: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:96
 msgid "Sorry, it took you too long to send the form! Please refresh the page and try again."
-msgstr "ขอโทษครับ ส่งฟอร์มใช้เวลาเยอะเกินไป โปรดลองอีกครั้ง"
+msgstr "ขอโทษครับ ส่งฟอร์มใช้เวลาเยอะเกินไป โปรดลองอีกครั้งครับ"
 
 #: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:103
 msgid "Sorry, the message couldn't be sent! I'll address this problem as soon as possible. Thank you for your interest."
-msgstr "ขอโทษครับ ไม่ได้ส่งข้อความ ผมจะพยายามซ่อมบั๊กเร็วๆ ขอบคุณที่ลองส่งข้อความ"
+msgstr "ขอโทษครับ ไม่ได้ส่งข้อความ ผมจะพยายามซ่อมบั๊กเร็วๆ ขอบคุณครับ"
 
 #: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:32
 msgid "Page not found!"
@@ -788,7 +788,7 @@ msgstr ""
 msgid ""
 "The emblem of my website is a pathway through the woods, because life is a long and complicated path we must all walk. It's "
 "fine, I love strolling."
-msgstr "โลโก้ของเว็บไซต์เป็นทางเดินในป่าเพราะชีวิตเป็นทางเดินที่ยาวและที่เดินยาก ไม่เป็นไร ผมชอบเดินเล่น"
+msgstr "โลโก้ของเว็บไซต์เป็นทางเดินในป่าเพราะชีวิตเป็นทางเดินยาวที่เดินยาก ไม่เป็นไร ผมชอบเดินเล่น"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:57
 msgid "Enjoy your visit!"
@@ -825,7 +825,7 @@ msgstr "ทำที่มหาลัย"
 
 #: ../../../views_cache/f4/d0/4e00656883a46ac2cb27b03fe272acc6a6a8191605f9e35dc8e7669b2185.php:147
 msgid "No results!"
-msgstr "ไม่มีผลงาน"
+msgstr "ไม่มีอะไร"
 
 #~ msgid ""
 #~ "I am an amateur photographer with little pretension and skill. I strive to discover the weird and the beauty in the "
