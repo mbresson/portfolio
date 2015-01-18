@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portfolio 1.0\n"
 "POT-Creation-Date: 2015-01-08 14:59+0100\n"
-"PO-Revision-Date: 2015-01-15 22:22+0100\n"
+"PO-Revision-Date: 2015-01-18 15:38+0100\n"
 "Last-Translator: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
 "Language-Team: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
 "Language: th\n"
@@ -51,8 +51,7 @@ msgstr "ภาษิตตุรกี"
 
 #: ../../../data/Wisdom.php:10
 msgid ""
-"Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out "
-"death in judgement."
+"Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out death in judgement."
 msgstr "หลายชีวิตสมควรตาย และหลายชีวิตที่ตายสมควรอยู่ เจ้าคืนชีวิตให้พวกเขาได้ไหมล่ะ จงอย่าคิดตัดสินชะตาชีวิตใครต่อใครดีกว่า"
 
 #: ../../../data/Wisdom.php:11
@@ -241,10 +240,10 @@ msgstr "แผนยกเครื่องเว็บไซต์ soleilprod.
 
 #: ../../../data/works/Apartom.php:5
 msgid ""
-"After a teacher showed me the video of the encounter of artists Marina Abramović and Ulay in 2010, he asked me to make some "
-"visual work to express how I felt about this moment. I decided to depict them like two heaps of geometric shapes (triangles "
-"and circles) because I have the feeling that at the smallest scale, every human being is a heap of atoms, and our emotions "
-"are dictated by a set of chimical reactions and by the brain."
+"After a teacher showed me the video of the encounter of artists Marina Abramović and Ulay in 2010, he asked me to make some visual work to "
+"express how I felt about this moment. I decided to depict them like two heaps of geometric shapes (triangles and circles) because I have the "
+"feeling that at the smallest scale, every human being is a heap of atoms, and our emotions are dictated by a set of chimical reactions and by the "
+"brain."
 msgstr ""
 
 #: ../../../data/works/Apartom.php:11
@@ -261,22 +260,21 @@ msgstr "หน้าแรกมีหลายตัวเลือก"
 
 #: ../../../data/works/Arkanopong.php:19
 msgid ""
-"Arkanopong is a mix between Ping Pong and Bricks Breaking games. You can play with another human or against the computer (its "
-"IA is basic but does the job)."
+"Arkanopong is a mix between Ping Pong and Bricks Breaking games. You can play with another human or against the computer (its IA is basic but "
+"does the job)."
 msgstr "เกมทำลายอิฐผสมปิงปอง เล่นกับคนอื่นหรือคอมพิวเตอร์ได้"
 
 #: ../../../data/works/Arkanopong.php:21
 msgid ""
-"Arkanopong uses OpenGL 2 and its fixed function pipeline for the rendering. It may run on any platform supported by OpenGL2 "
-"and the SDL library (which is used to create the window and capture events)."
+"Arkanopong uses OpenGL 2 and its fixed function pipeline for the rendering. It may run on any platform supported by OpenGL2 and the SDL library "
+"(which is used to create the window and capture events)."
 msgstr "Arkanopong ใช้ไลบรารี่ OpenGL 2 และ SDL"
 
 #: ../../../data/works/Arkanopong.php:23
 msgid ""
-"This project was fun to work on but if I could re-write it, I'd do it differently. The biggest difficulty I ran into was to "
-"render text. At first, I intended to render the text with Freetype library, but due to the strict deadline I didn't have time "
-"to learn how to use it. In the end, since all the text in the game is fixed and never changes, I chose to render it with "
-"SDL_image and then convert it to hardware textures."
+"This project was fun to work on but if I could re-write it, I'd do it differently. The biggest difficulty I ran into was to render text. At "
+"first, I intended to render the text with Freetype library, but due to the strict deadline I didn't have time to learn how to use it. In the end, "
+"since all the text in the game is fixed and never changes, I chose to render it with SDL_image and then convert it to hardware textures."
 msgstr "เวลาผมทำโปรเจคนี้ผมสนุก แต่ตอนนี้ผมไม่พอใจเรื่องคุณภาพของโค้ดแล้ว ถ้าจะต้องเขียนโค้ดครั้งใหม่ ผมจะทำอย่างอื่น"
 
 #: ../../../data/works/Arkanopong.php:27 ../../../data/works/Blockmatic.php:25 ../../../data/works/Polynomials.php:11
@@ -333,8 +331,8 @@ msgstr "เด็กๆข้างนอกโรงเรียนตอนเ
 
 #: ../../../data/works/Beijing 2013.php:64
 msgid ""
-"I spent four months in Beijing when I did an internship there in 2013. I had the opportunity to visit many places (the Great "
-"Wall, the Forbidden City, many parks...)."
+"I spent four months in Beijing when I did an internship there in 2013. I had the opportunity to visit many places (the Great Wall, the Forbidden "
+"City, many parks...)."
 msgstr "ผมอยู่ที่ปักกิ่งสี่เดือนเวลาฝึกงานในปี2556 ผมได้ไปเที่ยวที่ที่เยอะๆ เช่น กำแพงเมืองจีน พระราชวังต้องห้าม สวน และอื่นๆ"
 
 #: ../../../data/works/Berlin 2014.php:7
@@ -375,8 +373,8 @@ msgstr "รูปที่ถ่ายเวลาไปเที่ยวที
 
 #: ../../../data/works/Blazon.php:5
 msgid ""
-"A few years ago, a teacher asked me to produce a blazon that would represent my values. This blazon represents my will to "
-"thrive. The different parts symbolize the body and the mind, both of which are the vital material for life."
+"A few years ago, a teacher asked me to produce a blazon that would represent my values. This blazon represents my will to thrive. The different "
+"parts symbolize the body and the mind, both of which are the vital material for life."
 msgstr ""
 
 #: ../../../data/works/Blockmatic.php:8
@@ -389,14 +387,14 @@ msgstr "Blockmatic หยุดชั่วคราว"
 
 #: ../../../data/works/Blockmatic.php:19
 msgid ""
-"Blockmatic is a highly configurable Tetris clone. You can tweak it via the command line interface (blockmatic --help for the "
-"list of all available options)."
+"Blockmatic is a highly configurable Tetris clone. You can tweak it via the command line interface (blockmatic --help for the list of all "
+"available options)."
 msgstr "Blockmatic เป็นเกมเตตริสที่ปรับได้ด้วยบรรทัดคำสั่ง(blockmatic --help ช่วยได้)"
 
 #: ../../../data/works/Blockmatic.php:21
 msgid ""
-"I'm an unconditional fan of Tetris and I wanted to have a game that I could adapt to my needs. It was also a great "
-"opportunity to discover the SDL2 library for game development."
+"I'm an unconditional fan of Tetris and I wanted to have a game that I could adapt to my needs. It was also a great opportunity to discover the "
+"SDL2 library for game development."
 msgstr "ผมทำ Blockmatic เพราะติดเกมเตตริสและอยากทำโปรเจคที่ใช้ไลบรารี่ SDL2"
 
 #: ../../../data/works/Blockmatic.php:26
@@ -425,17 +423,17 @@ msgstr "เพจอัลบั้ม"
 
 #: ../../../data/works/Demoshot.php:13
 msgid ""
-"Demoshot is a photo sharing website. Its users can (after signing up) upload photos, give marks and comment on other people's "
-"pictures. The photos can be associated with tags and easily managed in each user's album. Demoshot's UI is built upon Twitter "
-"Bootstrap. The underlying database management system is MySQL."
+"Demoshot is a photo sharing website. Its users can (after signing up) upload photos, give marks and comment on other people's pictures. The "
+"photos can be associated with tags and easily managed in each user's album. Demoshot's UI is built upon Twitter Bootstrap. The underlying "
+"database management system is MySQL."
 msgstr "Demoshot เป็นเว็บไซต์แลกเปลี่ยนรูป ผู้ใช้อัพโหลดรูปและเขียนความเห็นเรื่องรูปของผู้ใช้คนอื่นได้ Demoshot สร้างด้วย PHP และ MySQL"
 
 #: ../../../data/works/Demoshot.php:15
 msgid ""
-"During my second year of undergraduate studies, the PHP teacher asked the students to develop a photo sharing website from "
-"scratch. Back then I was not very comfortable with PHP. As a result, it is not a project I'm very proud to show: the overall "
-"architecture is messy and the code itself is not a pleasant read, even though it's commented. However, I'm proud that I was "
-"able to develop my first complete website in a short time and all by myself. I have learnt a lot thanks to it."
+"During my second year of undergraduate studies, the PHP teacher asked the students to develop a photo sharing website from scratch. Back then I "
+"was not very comfortable with PHP. As a result, it is not a project I'm very proud to show: the overall architecture is messy and the code itself "
+"is not a pleasant read, even though it's commented. However, I'm proud that I was able to develop my first complete website in a short time and "
+"all by myself. I have learnt a lot thanks to it."
 msgstr "Demoshot เป็นโปรเจคเก่า เพราะเวลาสร้างผมยังรู้ภาษา PHP ไม่มาก ผมจึงไม่พอใจเรื่องคุณภาพของโค้ดแล้ว แต่ก็ยังพอใจที่ได้สร้างเว็บไซต์นี้คนเดียว"
 
 #: ../../../data/works/Demoshot.php:28
@@ -456,8 +454,8 @@ msgstr ""
 
 #: ../../../data/works/France.php:97
 msgid ""
-"This is a collection of photos I have taken over the past years. From time to time, I notice something beautiful or weird, "
-"and I do my best to capture it."
+"This is a collection of photos I have taken over the past years. From time to time, I notice something beautiful or weird, and I do my best to "
+"capture it."
 msgstr "รูปที่ถ่ายหลายปีแล้ว บางทีผมได้เห็นสิ่งที่สวยหรือแปลกที่น่าถ่าย"
 
 #: ../../../data/works/Korea 2012.php:15
@@ -467,8 +465,8 @@ msgstr "ในรถทัวร์ของสนามบินอินชอ
 #: ../../../data/works/Korea 2012.php:42
 #, php-format
 msgid ""
-"In 2012, I had the opportunity to visit Korea and attend a summer school for three weeks in %s. During my stay, I took a lot "
-"of photos, but I decided only to select a few interesting ones for this album."
+"In 2012, I had the opportunity to visit Korea and attend a summer school for three weeks in %s. During my stay, I took a lot of photos, but I "
+"decided only to select a few interesting ones for this album."
 msgstr "ผมไปเที่ยวที่ประเทศเกาหลีใต้และเรียนที่ %s สามอาทิตย์ในปี2555"
 
 #: ../../../data/works/Korea 2012.php:43
@@ -524,21 +522,17 @@ msgid "A page listing all available rooms and their rates"
 msgstr "ห้องนอนและราคา"
 
 #: ../../../data/works/Moonlight Champa.php:19
-msgid ""
-"Moonlight Champa is a guesthouse in Vientiane, Lao PDR. This website aims at attracting travelers and allows them to book a "
-"room."
+msgid "Moonlight Champa is a guesthouse in Vientiane, Lao PDR. This website aims at attracting travelers and allows them to book a room."
 msgstr "Moonlight Champa เป็นเกส์ตเฮาส์ที่เวียงจันทน์ เว็บไซต์นี้สำหรับนักท่องเที่ยวที่หาเกส์ตเฮาส์และอาจจะจองห้องนอน"
 
 #: ../../../data/works/Moonlight Champa.php:21
 msgid ""
-"Moonlight Champa is built on top of Slim (a PHP micro-framework). I developed a first version of the website in 2013, then I "
-"created a second version during summer 2014 and made it responsive to enhance the experience of smartphone users."
+"Moonlight Champa is built on top of Slim (a PHP micro-framework). I developed a first version of the website in 2013, then I created a second "
+"version during summer 2014 and made it responsive to enhance the experience of smartphone users."
 msgstr "Moonlight Champa สร้างด้วย Slim Framework (ไลบรารี่ PHP) ผมสร้างเว็บไซต์แรกในปี2556แล้วสร้างเว็บไซต์ที่สองในฤดูร้อนปี2557"
 
 #: ../../../data/works/Moonlight Champa.php:23
-msgid ""
-"I created this website for my friends who own the guesthouse, and because it is an awesome place to stay, when visiting "
-"Vientiane."
+msgid "I created this website for my friends who own the guesthouse, and because it is an awesome place to stay, when visiting Vientiane."
 msgstr "ผมสร้างเว็บไซต์นี้สำหรับเพื่อนที่เป็นเจ้าของเกส์ตเฮาส์และเพราะที่นั้นคงคือเกส์ตเฮาส์ที่สบายที่สุดที่เวียงจันทน์"
 
 #: ../../../data/works/Moonlight Champa.php:35
@@ -555,8 +549,8 @@ msgstr "อัลบั้มนี้มีรูปที่เข้ากั
 
 #: ../../../data/works/Polynomials.php:5
 msgid ""
-"Polynomials is a basic C library for polynomials arithmetic. It is not optimized and only provides the most basic operations "
-"(evaluating a polynomial, derivating it)."
+"Polynomials is a basic C library for polynomials arithmetic. It is not optimized and only provides the most basic operations (evaluating a "
+"polynomial, derivating it)."
 msgstr "Polynomials เป็นไลบรารี่ภาษาซีสำหรับพหุนาม มันไม่เร็วและมีฟีเจอร์ไม่เยอะ"
 
 #: ../../../data/works/Polynomials.php:7
@@ -595,9 +589,9 @@ msgstr "บรรจุลงรายงาน(เป็นภาษาฝร�
 #: ../../../data/works/Refonte Soleilprod.php:7
 #, php-format
 msgid ""
-"Soleil is a big French comic book publisher. This document describes a detailed overhaul plan for %s. It contains a study of "
-"their current website and their concurrents, and models for a new website. The work was done in team with Juliette Belin, "
-"Alice Neichols and Andréas Pinbouen. The design of the document was done by Andréas Pinbouen."
+"Soleil is a big French comic book publisher. This document describes a detailed overhaul plan for %s. It contains a study of their current "
+"website and their concurrents, and models for a new website. The work was done in team with Juliette Belin, Alice Neichols and Andréas Pinbouen. "
+"The design of the document was done by Andréas Pinbouen."
 msgstr ""
 
 #: ../../../data/works/Refonte Soleilprod.php:8
@@ -614,8 +608,8 @@ msgstr "บรรจุลงรายงาน(เป็นภาษาฝร�
 
 #: ../../../data/works/Stress.php:5
 msgid ""
-"Stress is an attempt to create a short (2-minute-long) music about stress and losing control. The music consists of three "
-"parts: the rise of stress, an attempt to cool down and lastly, the failure and the final collapse."
+"Stress is an attempt to create a short (2-minute-long) music about stress and losing control. The music consists of three parts: the rise of "
+"stress, an attempt to cool down and lastly, the failure and the final collapse."
 msgstr ""
 
 #: ../../../data/works/Stress.php:7
@@ -777,22 +771,21 @@ msgstr "ยินดีต้อนรับ"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:44
 msgid ""
-"I am Matthieu Bresson. I'm a self-taught person, passionate about computer science and natural languages. I can dive in a "
-"book all day long, or spend hours tinkering with my GNU/Linux system. Although I was born and raised in France, I intend to "
-"work and settle abroad."
+"I am Matthieu Bresson. I'm a self-taught person, passionate about computer science and natural languages. I can dive in a book all day long, or "
+"spend hours tinkering with my GNU/Linux system. Although I was born and raised in France, I intend to work and settle abroad."
 msgstr ""
-"ผมชื่อ มาตติเออ เบรสซง ผมเป็นคนชอบเรียนเอง สนใจคอพิวเตอร์และภาษา ชอบอ่านหนังสือตลอดวัน แม้ว่าผมเกิดและเลี้ยงที่ประเทศฝรั่งเศส "
-"แต่ผมอยากทำงานและย้ายบ้านที่ต่างประเทศ"
+"ผมชื่อ มาตติเออ เบรสซง ผมเป็นคนที่ชอบเรียนด้วยตัวเอง หลงใหลคอมพิวเตอร์และภาษา ชอบอ่านหนังสือตลอดวันหรือทำนู่นทำนี่กับระบบ ลินุกซ์  แม้ว่าผมเกิดที่ประเทศฝรั่งเศส "
+"แต่ผมตั้งใจว่าจะทำงานและย้ายไปอยู่ต่างประเทศ"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:51
 msgid ""
-"The emblem of my website is a pathway through the woods, because life is a long and complicated path we must all walk. It's "
-"fine, I love strolling."
-msgstr "โลโก้ของเว็บไซต์เป็นทางเดินในป่าเพราะชีวิตเป็นทางเดินยาวที่เดินยาก ไม่เป็นไร ผมชอบเดินเล่น"
+"The emblem of my website is a pathway through the woods, because life is a long and complicated path we must all walk. It's fine, I love "
+"strolling."
+msgstr "โลโก้ของเว็บไซต์เป็นทางเดินในป่าเพราะชีวิตเป็นทางเดินที่ยาวและซับซ้อน ไม่เป็นไร ผมชอบเดินเล่น"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:57
 msgid "Enjoy your visit!"
-msgstr "เที่ยวให้สนุกครับ"
+msgstr "ขอให้มีความสุขกับการชมเว็บไซต์ครับ"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:68
 #, php-format
@@ -827,9 +820,7 @@ msgstr "ทำที่มหาลัย"
 msgid "No results!"
 msgstr "ไม่มีอะไร"
 
-#~ msgid ""
-#~ "I am an amateur photographer with little pretension and skill. I strive to discover the weird and the beauty in the "
-#~ "ordinary."
+#~ msgid "I am an amateur photographer with little pretension and skill. I strive to discover the weird and the beauty in the ordinary."
 #~ msgstr "ผมไม่ใช่นักถ่ายรูปแต่ก็ยังชอบถ่ายอะไรที่สวยหรือน่าสนใจ"
 
 #~ msgid "Hi!"
