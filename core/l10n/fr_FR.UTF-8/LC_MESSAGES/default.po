@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Portfolio 1.0\n"
-"POT-Creation-Date: 2015-01-07 22:39+0100\n"
-"PO-Revision-Date: 2015-01-07 22:54+0100\n"
+"POT-Creation-Date: 2015-05-19 00:40+0100\n"
+"PO-Revision-Date: 2015-05-19 00:49+0100\n"
 "Last-Translator: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
 "Language-Team: Matthieu Bresson <bresson-matthieu@orange.fr>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.6\n"
 "X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -44,7 +44,9 @@ msgstr "Contact"
 #: ../../../data/Wisdom.php:5
 #: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:50
 msgid "No matter how far down the wrong road you've gone, turn back."
-msgstr "Peu importe jusqu'à quel point tu as avancé sur le mauvais chemin, fais demi-tour."
+msgstr ""
+"Peu importe jusqu'à quel point tu as avancé sur le mauvais chemin, fais demi-"
+"tour."
 
 #: ../../../data/Wisdom.php:6
 msgid "A Turkish proverb"
@@ -52,12 +54,12 @@ msgstr "Un proverbe turque"
 
 #: ../../../data/Wisdom.php:10
 msgid ""
-"Many that live deserve death. And some that die deserve life. Can you give it to them? Then do "
-"not be too eager to deal out death in judgement."
+"Many that live deserve death. And some that die deserve life. Can you give "
+"it to them? Then do not be too eager to deal out death in judgement."
 msgstr ""
-"Nombreux sont les vivants qui mériteraient la mort, et les morts qui mériteraient la vie, "
-"pouvez-vous la leur rendre Frodon ? Alors ne soyez pas trop prompt à dispenser morts et "
-"jugements."
+"Nombreux sont les vivants qui mériteraient la mort, et les morts qui "
+"mériteraient la vie, pouvez-vous la leur rendre Frodon ? Alors ne soyez pas "
+"trop prompt à dispenser morts et jugements."
 
 #: ../../../data/Wisdom.php:11
 msgid "Gandalf"
@@ -70,6 +72,18 @@ msgstr "Le commencement est la partie la plus importante du travail."
 #: ../../../data/Wisdom.php:16
 msgid "Plato"
 msgstr "Platon"
+
+#: ../../../data/Wisdom.php:20
+msgid ""
+"Holding on to anger is like grasping a hot coal with the intent of throwing "
+"it at someone else; you are the one who gets burned."
+msgstr ""
+"Retenir la colère, c'est comme tenir un charbon ardent dans l'intention de "
+"le jeter à quelqu'un d'autre, vous êtes la seule personne qui se brûle."
+
+#: ../../../data/Wisdom.php:21
+msgid "Buddhaghoṣa"
+msgstr "Buddhaghoṣa"
 
 #: ../../../data/Works.php:6
 msgid "Programming"
@@ -119,145 +133,167 @@ msgstr "MIT"
 msgid "CC BY-SA 4.0"
 msgstr "CC BY-SA 4.0"
 
-#: ../../../data/Works.php:56
+#: ../../../data/Works.php:52
+msgid "CeCILL-B"
+msgstr "CeCILL-B"
+
+#: ../../../data/Works.php:61
 msgid "A highly configurable Tetris clone"
 msgstr "Un clone du jeu Tetris ultra-configurable"
 
-#: ../../../data/Works.php:66
+#: ../../../data/Works.php:71
 msgid "A mix between Ping Pong and Bricks Breaking games"
 msgstr "Un mélange de Ping Pong et de Casse-Briques"
 
-#: ../../../data/Works.php:76
+#: ../../../data/Works.php:81
 msgid "A very basic C library for the handling of polynomials"
 msgstr "Une bibliothèque C pour gérer les polynômes"
 
-#: ../../../data/Works.php:86
+#: ../../../data/Works.php:91
 msgid "A photo sharing website"
 msgstr "Un site web de partage de photos"
 
-#: ../../../data/Works.php:96
+#: ../../../data/Works.php:101
 msgid "A theme for PluXML blogs"
 msgstr "Un thème pour les blogs fonctionnant avec PluXML"
 
-#: ../../../data/Works.php:106
+#: ../../../data/Works.php:111
 msgid "My portfolio website which you're currently browsing!"
 msgstr "Mon site web sur lequel vous êtes en ce moment !"
 
-#: ../../../data/Works.php:116
+#: ../../../data/Works.php:121
 msgid "The website of Moonlight Champa guesthouse, Vientiane, Lao PDR"
 msgstr "Le site web de Moonlight Champa, une maison d'hôtes à Vientiane, Laos"
 
-#: ../../../data/Works.php:125
+#: ../../../data/Works.php:130
 msgid "Laos 2013"
 msgstr "Laos, 2013"
 
-#: ../../../data/Works.php:126
+#: ../../../data/Works.php:131
 msgid "Photos shot in Vientiane and Luang Prabang, Lao PDR"
 msgstr "Photos prises à Vientiane et Luang Prabang, Laos"
 
-#: ../../../data/Works.php:135
+#: ../../../data/Works.php:140
 msgid "Korea 2012"
 msgstr "Corée du sud, 2012"
 
-#: ../../../data/Works.php:136
-msgid "Photos shot in South Korea during my summer school at Chonbuk National University"
-msgstr "Photos prises en Corée du sud pendant mon séjour à Chonbuk National University"
+#: ../../../data/Works.php:141
+msgid ""
+"Photos shot in South Korea during my summer school at Chonbuk National "
+"University"
+msgstr ""
+"Photos prises en Corée du sud pendant mon séjour à Chonbuk National "
+"University"
 
-#: ../../../data/Works.php:145
+#: ../../../data/Works.php:150
 msgid "Beijing 2013"
 msgstr "Pékin, 2013"
 
-#: ../../../data/Works.php:146
+#: ../../../data/Works.php:151
 msgid "Photos shot when doing a four-month internship in Beijing"
 msgstr "Photos prises à l'occasion d'un stage de quatre mois à Pékin"
 
-#: ../../../data/Works.php:155
+#: ../../../data/Works.php:160
 msgid "Berlin 2014"
 msgstr "Berlin, 2014"
 
-#: ../../../data/Works.php:156
+#: ../../../data/Works.php:161
 msgid "Photos shot during a short trip to Berlin"
 msgstr "Photos prises pendant un court voyage à Berlin"
 
-#: ../../../data/Works.php:165
+#: ../../../data/Works.php:170
 msgid "France"
 msgstr "France"
 
-#: ../../../data/Works.php:166
+#: ../../../data/Works.php:171
 msgid "Photos shot over the years in France"
 msgstr "Photos prises en France tout au long des dernières années"
 
-#: ../../../data/Works.php:175
+#: ../../../data/Works.php:180
 msgid "Thailand 2014"
 msgstr "Thaïlande, 2014"
 
-#: ../../../data/Works.php:176
+#: ../../../data/Works.php:181
 msgid "Photos shot in Thailand in 2014"
 msgstr "Photos prises en Thaïlande en 2014"
 
-#: ../../../data/Works.php:185
+#: ../../../data/Works.php:190
 msgid "Other pictures"
 msgstr "Autres photos"
 
-#: ../../../data/Works.php:186
+#: ../../../data/Works.php:191
 msgid "Miscellaneous pictures"
 msgstr "Des photos diverses et variées"
 
-#: ../../../data/Works.php:195
+#: ../../../data/Works.php:200
 msgid "Stress"
 msgstr "Stress"
 
-#: ../../../data/Works.php:196
+#: ../../../data/Works.php:201
 msgid "A short audio work trying to depict the rise of stress"
 msgstr "Un court travail musical essayant de décrire la montée du stress"
 
-#: ../../../data/Works.php:205
+#: ../../../data/Works.php:210
 msgid "Apartom"
 msgstr "Séparatome"
 
-#: ../../../data/Works.php:206
+#: ../../../data/Works.php:211
 msgid ""
-"A picture about a man and a woman who are apart even though they're sitting close to each other"
-msgstr "Une image au sujet d'un homme et d'une femme séparés malgré leur proximité physique"
+"A picture about a man and a woman who are apart even though they're sitting "
+"close to each other"
+msgstr ""
+"Une image au sujet d'un homme et d'une femme séparés malgré leur proximité "
+"physique"
 
-#: ../../../data/Works.php:215
+#: ../../../data/Works.php:220
 msgid "Blazon"
 msgstr "Blason"
 
-#: ../../../data/Works.php:216
+#: ../../../data/Works.php:221
 msgid "A visual description of my values and my roots"
 msgstr "Une description visuelle de mes valeurs et de mes racines"
 
-#: ../../../data/Works.php:225
+#: ../../../data/Works.php:230
 msgid "Schwann internship report"
 msgstr "Rapport de stage Schwann"
 
-#: ../../../data/Works.php:226
+#: ../../../data/Works.php:231
 msgid "A report on my four-month internship at Schwann"
 msgstr "Un rapport sur mon stage de quatre mois à Schwann"
 
-#: ../../../data/Works.php:235
+#: ../../../data/Works.php:240
 msgid "Overhaul plan for Soleilprod"
 msgstr "Plan de refonte de Soleilprod"
 
-#: ../../../data/Works.php:236
+#: ../../../data/Works.php:241
 msgid "An overhaul plan for soleilprod.com website"
 msgstr "Un plan de refonte du site soleilprod.com"
 
+#: ../../../data/Works.php:251
+msgid "A basic platform game written in Java"
+msgstr "Un jeu de plate-forme basique écrit en Java"
+
+#: ../../../data/Works.php:261
+msgid "A web application for tourists in the French medieval town of Provins"
+msgstr ""
+"Une application web pour les visiteurs de la ville médiévale de Provins"
+
 #: ../../../data/works/Apartom.php:5
 msgid ""
-"After a teacher showed me the video of the encounter of artists Marina Abramović and Ulay in "
-"2010, he asked me to make some visual work to express how I felt about this moment. I decided "
-"to depict them like two heaps of geometric shapes (triangles and circles) because I have the "
-"feeling that at the smallest scale, every human being is a heap of atoms, and our emotions are "
-"dictated by a set of chimical reactions and by the brain."
+"After a teacher showed me the video of the encounter of artists Marina "
+"Abramović and Ulay in 2010, he asked me to make some visual work to express "
+"how I felt about this moment. I decided to depict them like two heaps of "
+"geometric shapes (triangles and circles) because I have the feeling that at "
+"the smallest scale, every human being is a heap of atoms, and our emotions "
+"are dictated by a set of chimical reactions and by the brain."
 msgstr ""
-"Après qu'un professeur m'ait montré une vidéo de la rencontre des artistes Marina Abramović et "
-"Ulay en 2010, il m'a demandé de réaliser une illustration pour exprimer mon ressenti. J'ai "
-"décidé de montrer les deux artistes comme deux amas de formes géométriques (des triangles et "
-"des cercles) car j'avais la conviction qu'à la plus petite échelle, tout être humain se réduit "
-"à un tas d'atomes, et que nos émotions étaient dictées par un ensemble de réactions chimiques "
-"et par le cerveau."
+"Après qu'un professeur m'ait montré une vidéo de la rencontre des artistes "
+"Marina Abramović et Ulay en 2010, il m'a demandé de réaliser une "
+"illustration pour exprimer mon ressenti. J'ai décidé de montrer les deux "
+"artistes comme deux amas de formes géométriques (des triangles et des "
+"cercles) car j'avais la conviction qu'à la plus petite échelle, tout être "
+"humain se réduit à un tas d'atomes, et que nos émotions étaient dictées par "
+"un ensemble de réactions chimiques et par le cerveau."
 
 #: ../../../data/works/Apartom.php:11
 msgid "Check out the video of Abramović and Ulay on Youtube"
@@ -268,42 +304,49 @@ msgid "A level in Arkanopong"
 msgstr "Un niveau dans Arkanopong"
 
 #: ../../../data/works/Arkanopong.php:14
-msgid "The main menu allows you to change some settings and to select the level to play"
-msgstr "Le menu principal permet de faire certains réglages et de choisir le niveau à jouer"
+msgid ""
+"The main menu allows you to change some settings and to select the level to "
+"play"
+msgstr ""
+"Le menu principal permet de faire certains réglages et de choisir le niveau "
+"à jouer"
 
 #: ../../../data/works/Arkanopong.php:19
 msgid ""
-"Arkanopong is a mix between Ping Pong and Bricks Breaking games. You can play with another "
-"human or against the computer (its IA is basic but does the job)."
+"Arkanopong is a mix between Ping Pong and Bricks Breaking games. You can "
+"play with another human or against the computer (its IA is basic but does "
+"the job)."
 msgstr ""
-"Arkanopong est un mélange de Ping Pong et de Casse-Briques. Vous pouvez jouer avec un autre "
-"humain ou contre la machine (son intelligence est basique mais suffisante pour perdre face à "
-"elle)."
+"Arkanopong est un mélange de Ping Pong et de Casse-Briques. Vous pouvez "
+"jouer avec un autre humain ou contre la machine (son intelligence est "
+"basique mais suffisante pour perdre face à elle)."
 
 #: ../../../data/works/Arkanopong.php:21
 msgid ""
-"Arkanopong uses OpenGL 2 and its fixed function pipeline for the rendering. It may run on any "
-"platform supported by OpenGL2 and the SDL library (which is used to create the window and "
-"capture events)."
+"Arkanopong uses OpenGL 2 and its fixed function pipeline for the rendering. "
+"It may run on any platform supported by OpenGL2 and the SDL library (which "
+"is used to create the window and capture events)."
 msgstr ""
-"Arkanopong utilise OpenGL 2 et son pipeline de rendu fixe. Il peut fonctionner sur n'importe "
-"quelle plate-forme qui supporte OpenGL 2 et la bibliothèque SDL (utilisée pour le fenêtrage et "
-"la gestion des événements)."
+"Arkanopong utilise OpenGL 2 et son pipeline de rendu fixe. Il peut "
+"fonctionner sur n'importe quelle plate-forme qui supporte OpenGL 2 et la "
+"bibliothèque SDL (utilisée pour le fenêtrage et la gestion des événements)."
 
 #: ../../../data/works/Arkanopong.php:23
 msgid ""
-"This project was fun to work on but if I could re-write it, I'd do it differently. The biggest "
-"difficulty I ran into was to render text. At first, I intended to render the text with Freetype "
-"library, but due to the strict deadline I didn't have time to learn how to use it. In the end, "
-"since all the text in the game is fixed and never changes, I chose to render it with SDL_image "
-"and then convert it to hardware textures."
+"This project was fun to work on but if I could re-write it, I'd do it "
+"differently. The biggest difficulty I ran into was to render text. At first, "
+"I intended to render the text with Freetype library, but due to the strict "
+"deadline I didn't have time to learn how to use it. In the end, since all "
+"the text in the game is fixed and never changes, I chose to render it with "
+"SDL_image and then convert it to hardware textures."
 msgstr ""
-"Ce projet était amusant à réaliser mais si je pouvais le réécrire de zéro, je le développerais "
-"différemment. Ma plus grosse difficulté fut de rendre du texte à l'écran. Initialement, je "
-"souhaitais utiliser la bibliothèque Freetype, mais en raison de la deadline toute proche, je "
-"n'ai pas eu le temps de m'y former. J'ai donc finalement choisi de rendre le texte avec "
-"SDL_image et de le convertir en textures pour la carte graphique, car le texte n'a pas besoin "
-"de changer en fonction des interactions du joueur."
+"Ce projet était amusant à réaliser mais si je pouvais le réécrire de zéro, "
+"je le développerais différemment. Ma plus grosse difficulté fut de rendre du "
+"texte à l'écran. Initialement, je souhaitais utiliser la bibliothèque "
+"Freetype, mais en raison de la deadline toute proche, je n'ai pas eu le "
+"temps de m'y former. J'ai donc finalement choisi de rendre le texte avec "
+"SDL_image et de le convertir en textures pour la carte graphique, car le "
+"texte n'a pas besoin de changer en fonction des interactions du joueur."
 
 #: ../../../data/works/Arkanopong.php:27 ../../../data/works/Blockmatic.php:25
 #: ../../../data/works/Polynomials.php:11
@@ -319,8 +362,11 @@ msgid "Download the source code of Arkanopong"
 msgstr "Téléchargez le code source d'Arkanopong"
 
 #: ../../../data/works/Arkanopong.php:40
-msgid "Download the work report I had to write for my teacher (it's only in French)"
-msgstr "Téléchargez le rapport de fin de projet qu'il m'a fallu écrire pour mon enseignant"
+msgid ""
+"Download the work report I had to write for my teacher (it's only in French)"
+msgstr ""
+"Téléchargez le rapport de fin de projet qu'il m'a fallu écrire pour mon "
+"enseignant"
 
 #: ../../../data/works/Bareview.php:8
 msgid "Bareview on my old blog"
@@ -328,96 +374,170 @@ msgstr "Bareview habillant mon ancien blog"
 
 #: ../../../data/works/Bareview.php:13
 msgid ""
-"Bareview is a theme for the blog engine Pluxml 5.1. It was designed to give a feeling of "
-"\"straight to the point\"."
+"Bareview is a theme for the blog engine Pluxml 5.1. It was designed to give "
+"a feeling of \"straight to the point\"."
 msgstr ""
-"Bareview est un thème pour PluXML 5.1. Il a été pensé pour donner une impression de « droit au "
-"but »."
+"Bareview est un thème pour PluXML 5.1. Il a été pensé pour donner une "
+"impression de « droit au but »."
 
 #: ../../../data/works/Bareview.php:15
 msgid ""
-"I created it to provide a more personal look to my old blog. I no longer use it nor maintain it."
+"I created it to provide a more personal look to my old blog. I no longer use "
+"it nor maintain it."
 msgstr ""
-"Je l'ai créé pour donner un feeling plus personnel à mon ancien blog. Je ne l'utilise ni ne le "
-"maintiens plus."
+"Je l'ai créé pour donner un feeling plus personnel à mon ancien blog. Je ne "
+"l'utilise ni ne le maintiens plus."
 
 #: ../../../data/works/Bareview.php:26
 msgid "Download the source code of Bareview"
 msgstr "Téléchargez le code source de Bareview"
 
-#: ../../../data/works/Beijing 2013.php:15
+#: ../../../data/works/Beijing-2013.php:15
 msgid "Chaoyang park, Beijing"
 msgstr "Le parc Chaoyang, à Pékin"
 
-#: ../../../data/works/Beijing 2013.php:20
+#: ../../../data/works/Beijing-2013.php:20
 msgid "Mind your step in the Forbidden City"
 msgstr "« Mind your step » dans la Cité Interdite"
 
-#: ../../../data/works/Beijing 2013.php:29
+#: ../../../data/works/Beijing-2013.php:29
 msgid "Near the Jinshanling section of the Great Wall"
 msgstr "Près de la Muraille de Chine à Jinshanling"
 
-#: ../../../data/works/Beijing 2013.php:46
+#: ../../../data/works/Beijing-2013.php:46
 msgid "The Great Wall of Mutianyu"
 msgstr "La Muraille de Chine à Mutianyu"
 
-#: ../../../data/works/Beijing 2013.php:51
+#: ../../../data/works/Beijing-2013.php:51
 msgid "Children in primary school gather in the early morning"
 msgstr "Enfants rassemblés dans la cour de leur école, un matin"
 
-#: ../../../data/works/Beijing 2013.php:64
+#: ../../../data/works/Beijing-2013.php:64
 msgid ""
-"I spent four months in Beijing when I did an internship there in 2013. I had the opportunity to "
-"visit many places (the Great Wall, the Forbidden City, many parks...)."
+"I spent four months in Beijing when I did an internship there in 2013. I had "
+"the opportunity to visit many places (the Great Wall, the Forbidden City, "
+"many parks...)."
 msgstr ""
-"J'ai passé quatre mois à Pékin à l'occasion de mon stage de 2013. J'ai eu l'opportunité de "
-"visiter de nombreux lieux (Grande Muraille, Cité Interdite, de nombreux parcs)."
+"J'ai passé quatre mois à Pékin à l'occasion de mon stage de 2013. J'ai eu "
+"l'opportunité de visiter de nombreux lieux (Grande Muraille, Cité Interdite, "
+"de nombreux parcs)."
 
-#: ../../../data/works/Berlin 2014.php:7
+#: ../../../data/works/Berlin-2014.php:7
 msgid "Alexanderplatz subway station"
 msgstr "Station de métro d'Alexanderplatz"
 
-#: ../../../data/works/Berlin 2014.php:16
+#: ../../../data/works/Berlin-2014.php:16
 msgid "Brandenburg gate"
 msgstr "La porte de Brandebourg"
 
-#: ../../../data/works/Berlin 2014.php:21
+#: ../../../data/works/Berlin-2014.php:21
 msgid "Holocaust Memorial"
 msgstr "Le mémorial de la Shoah"
 
-#: ../../../data/works/Berlin 2014.php:26
+#: ../../../data/works/Berlin-2014.php:26
 msgid "Natural History Museum"
 msgstr "Le musée national d'Histoire naturelle"
 
-#: ../../../data/works/Berlin 2014.php:31
+#: ../../../data/works/Berlin-2014.php:31
 msgid "The Reichstag"
 msgstr "Le Reichstag"
 
-#: ../../../data/works/Berlin 2014.php:44
+#: ../../../data/works/Berlin-2014.php:44
 msgid "The river Spree"
 msgstr "La rivière Spree"
 
-#: ../../../data/works/Berlin 2014.php:49
+#: ../../../data/works/Berlin-2014.php:49
 msgid "Berlin is famous for its street art"
 msgstr "Berlin est fameux pour son art mural"
 
-#: ../../../data/works/Berlin 2014.php:62
+#: ../../../data/works/Berlin-2014.php:62
 msgid "Tempelhof Feld, an airport turned into a vast public park"
 msgstr "Tempelhof Feld, un aéroport reconverti en un vaste parc public"
 
-#: ../../../data/works/Berlin 2014.php:67
+#: ../../../data/works/Berlin-2014.php:67
 msgid "Photos of a short trip in Berlin."
 msgstr "Photos d'un court voyage à Berlin."
 
+#: ../../../data/works/Betaform.php:8
+msgid "The home screen of Betaform"
+msgstr "L'écran d'accueil de Betaform"
+
+#: ../../../data/works/Betaform.php:14
+msgid ""
+"The first level of Betaform gives you a lot of information to help you make "
+"it through"
+msgstr ""
+"Le premier niveau de Betaform donne beaucoup d'informations pour vous aider "
+"à vous en sortir"
+
+#: ../../../data/works/Betaform.php:20
+msgid "The second level of Betaform is much harder"
+msgstr "Le second niveau est bien plus dur"
+
+#: ../../../data/works/Betaform.php:26
+msgid ""
+"Betaform is a platform game which takes place in 2115. You are a robot and "
+"you can move, jump, and shoot, but your autonomy is limited: whenever you do "
+"something, your battery is drained. If you run out of power, jumping and "
+"shooting become impossible (till you get some power back)."
+msgstr ""
+"Betaform est un jeu de plate-forme qui se déroule en 2115. Vous êtes un "
+"robot et vous pouvez vous déplacer, sauter et tirer ; mais votre autonomie "
+"est limitée : à chaque fois que vous faites quelque chose, votre batterie "
+"s'épuise. Si celle-ci se vide complètement, il devient impossible de sauter "
+"et tirer (d'ici à ce que la batterie se recharge un peu)."
+
+#: ../../../data/works/Betaform.php:28
+msgid ""
+"Betaform is a school project. It is developed in Java and uses the powerful "
+"libGDX. It should run fine on any OS supported by those. The source code is "
+"quite ugly and I am not satisfied with it: since it was my first time trying "
+"to write a complete game and because of the close deadline, I didn't think "
+"long enough before developing it. Nonetheless, I learned a lot in the "
+"process. For now, the game kind of works, and the level editor is half done. "
+"There are three levels for you to try."
+msgstr ""
+"Betaform est un projet scolaire. Développé en Java et utilisant la puissante "
+"bibliothèque libGDX, il devrait tourner parfaitement sur tous les systèmes "
+"supportés par cette dernière. Le code source est plutôt mal écrit et je n'en "
+"suis pas satisfait : étant donné que c'était la première fois que j'essayais "
+"d'écrire un jeu complet et à cause de la date de rendu toute proche, je n'ai "
+"pas assez réfléchi avant de me lancer dans le développement. Cependant, j'ai "
+"beaucoup appris. Pour l'instant, le jeu fonctionne plutôt convenablement, et "
+"l'éditeur de niveau est à moitié fait. Il y a trois niveaux."
+
+#: ../../../data/works/Betaform.php:30
+msgid ""
+"I did all the graphics myself, with the help of Inkscape, a free and open "
+"source vector graphics software. Since I'm a developer, not a graphist, the "
+"graphics just suck but I can live with it since it was not the purpose of "
+"the project and most other students used resources from the Internet."
+msgstr ""
+"J'ai fait tous les graphismes par moi-même, avec l'aide d'Inkscape, un outil "
+"de graphisme vectoriel libre. Étant un développeur et pas un graphiste, les "
+"graphismes sont moches mais peu importe, car ce n'était pas le but de "
+"l'exercice et la plupart des autres étudiants ont pris des ressources sur "
+"internet à la place."
+
+#: ../../../data/works/Betaform.php:34
+msgid "Java programming language"
+msgstr "Le langage Java"
+
+#: ../../../data/works/Betaform.php:42
+msgid "Download the source code of Betaform"
+msgstr "Téléchargez le code source de Betaform"
+
 #: ../../../data/works/Blazon.php:5
 msgid ""
-"A few years ago, a teacher asked me to produce a blazon that would represent my values. This "
-"blazon represents my will to thrive. The different parts symbolize the body and the mind, both "
-"of which are the vital material for life."
+"A few years ago, a teacher asked me to produce a blazon that would represent "
+"my values. This blazon represents my will to thrive. The different parts "
+"symbolize the body and the mind, both of which are the vital material for "
+"life."
 msgstr ""
-"Il y a quelques années, un professeur m'a demandé de créer un blason qui représenterait mes "
-"valeurs. Ce blason représente mon désir d'aller toujours plus loin. Les différentes parties "
-"symbolisent le corps et l'esprit, qui sont tous deux nécessaires à la vie."
+"Il y a quelques années, un professeur m'a demandé de créer un blason qui "
+"représenterait mes valeurs. Ce blason représente mon désir d'aller toujours "
+"plus loin. Les différentes parties symbolisent le corps et l'esprit, qui "
+"sont tous deux nécessaires à la vie."
 
 #: ../../../data/works/Blockmatic.php:8
 msgid "Blockmatic after some tweaking"
@@ -429,20 +549,23 @@ msgstr "Blockmatic en pause"
 
 #: ../../../data/works/Blockmatic.php:19
 msgid ""
-"Blockmatic is a highly configurable Tetris clone. You can tweak it via the command line "
-"interface (blockmatic --help for the list of all available options)."
+"Blockmatic is a highly configurable Tetris clone. You can tweak it via the "
+"command line interface (blockmatic --help for the list of all available "
+"options)."
 msgstr ""
-"Blockmatic est un clone du jeu Tetris ultra-configurable. Vous pouvez le configurer via la "
-"ligne de commande (blockmatic --help donne la liste de toutes les options)."
+"Blockmatic est un clone du jeu Tetris ultra-configurable. Vous pouvez le "
+"configurer via la ligne de commande (blockmatic --help donne la liste de "
+"toutes les options)."
 
 #: ../../../data/works/Blockmatic.php:21
 msgid ""
-"I'm an unconditional fan of Tetris and I wanted to have a game that I could adapt to my needs. "
-"It was also a great opportunity to discover the SDL2 library for game development."
+"I'm an unconditional fan of Tetris and I wanted to have a game that I could "
+"adapt to my needs. It was also a great opportunity to discover the SDL2 "
+"library for game development."
 msgstr ""
-"Je suis un fan inconditionnel du jeu Tetris et je voulais avoir un jeu que je puisse adapter en "
-"fonction de mes goûts. Ce fut aussi l'opportunité de découvrir la bibliothèque SDL2 pour le "
-"développement de jeux."
+"Je suis un fan inconditionnel du jeu Tetris et je voulais avoir un jeu que "
+"je puisse adapter en fonction de mes goûts. Ce fut aussi l'opportunité de "
+"découvrir la bibliothèque SDL2 pour le développement de jeux."
 
 #: ../../../data/works/Blockmatic.php:26
 msgid "SDL2 library"
@@ -467,36 +590,41 @@ msgstr "Téléchargez Blockmatic pour Linux (64 bits)"
 #: ../../../data/works/Demoshot.php:8
 msgid "A user's album page, with sorting buttons and pagination controls"
 msgstr ""
-"La page d'album d'un utilisateur, avec des boutons pour trier les photos et pour passer d'une "
-"page à une autre"
+"La page d'album d'un utilisateur, avec des boutons pour trier les photos et "
+"pour passer d'une page à une autre"
 
 #: ../../../data/works/Demoshot.php:13
 msgid ""
-"Demoshot is a photo sharing website. Its users can (after signing up) upload photos, give marks "
-"and comment on other people's pictures. The photos can be associated with tags and easily "
-"managed in each user's album. Demoshot's UI is built upon Twitter Bootstrap. The underlying "
-"database management system is MySQL."
+"Demoshot is a photo sharing website. Its users can (after signing up) upload "
+"photos, give marks and comment on other people's pictures. The photos can be "
+"associated with tags and easily managed in each user's album. Demoshot's UI "
+"is built upon Twitter Bootstrap. The underlying database management system "
+"is MySQL."
 msgstr ""
-"Demoshot est un site de partage de photos. Les utilisateurs peuvent (une fois enregistrés) "
-"publier des photos, mettre des notes et des commentaires sur les photos des autres. Les photos "
-"peuvent être associées à des tags et facilement gérées dans la page d'album de chaque "
-"utilisateur. L'interface de Demoshot est bâtie sur Twitter Bootstrap. Le SGBD utilisé est MySQL."
+"Demoshot est un site de partage de photos. Les utilisateurs peuvent (une "
+"fois enregistrés) publier des photos, mettre des notes et des commentaires "
+"sur les photos des autres. Les photos peuvent être associées à des tags et "
+"facilement gérées dans la page d'album de chaque utilisateur. L'interface de "
+"Demoshot est bâtie sur Twitter Bootstrap. Le SGBD utilisé est MySQL."
 
 #: ../../../data/works/Demoshot.php:15
 msgid ""
-"During my second year of undergraduate studies, the PHP teacher asked the students to develop a "
-"photo sharing website from scratch. Back then I was not very comfortable with PHP. As a result, "
-"it is not a project I'm very proud to show: the overall architecture is messy and the code "
-"itself is not a pleasant read, even though it's commented. However, I'm proud that I was able "
-"to develop my first complete website in a short time and all by myself. I have learnt a lot "
-"thanks to it."
+"During my second year of undergraduate studies, the PHP teacher asked the "
+"students to develop a photo sharing website from scratch. Back then I was "
+"not very comfortable with PHP. As a result, it is not a project I'm very "
+"proud to show: the overall architecture is messy and the code itself is not "
+"a pleasant read, even though it's commented. However, I'm proud that I was "
+"able to develop my first complete website in a short time and all by myself. "
+"I have learnt a lot thanks to it."
 msgstr ""
-"Pendant ma seconde année de DUT, mon professeur de PHP demanda aux étudiants de développer un "
-"site de partage de photos en partant de zéro. À l'époque, je n'étais pas encore très à l'aise "
-"avec PHP. C'est pourquoi ce n'est pas un projet que je suis très fier de montrer : "
-"l'architecture générale est médiocre et le code n'est pas très plaisant à lire malgré les "
-"commentaires. Cependant, je suis fier d'avoir été capable de développer mon premier site "
-"complet en un court temps et par moi-même. Cela m'a permis d'apprendre beaucoup."
+"Pendant ma seconde année de DUT, mon professeur de PHP demanda aux étudiants "
+"de développer un site de partage de photos en partant de zéro. À l'époque, "
+"je n'étais pas encore très à l'aise avec PHP. C'est pourquoi ce n'est pas un "
+"projet que je suis très fier de montrer : l'architecture générale est "
+"médiocre et le code n'est pas très plaisant à lire malgré les commentaires. "
+"Cependant, je suis fier d'avoir été capable de développer mon premier site "
+"complet en un court temps et par moi-même. Cela m'a permis d'apprendre "
+"beaucoup."
 
 #: ../../../data/works/Demoshot.php:28
 msgid "Download the source code of Demoshot"
@@ -516,133 +644,143 @@ msgstr "Au-delà de la grille"
 
 #: ../../../data/works/France.php:97
 msgid ""
-"This is a collection of photos I have taken over the past years. From time to time, I notice "
-"something beautiful or weird, and I do my best to capture it."
+"This is a collection of photos I have taken over the past years. From time "
+"to time, I notice something beautiful or weird, and I do my best to capture "
+"it."
 msgstr ""
-"Il s'agit d'une collection de photos prises tout au long des dernières années. "
-"Occasionnellement, je remarque quelque chose de magnifique ou d'étrange et je tente de le "
-"capturer."
+"Il s'agit d'une collection de photos prises tout au long des dernières "
+"années. Occasionnellement, je remarque quelque chose de magnifique ou "
+"d'étrange et je tente de le capturer."
 
-#: ../../../data/works/Korea 2012.php:15
+#: ../../../data/works/Korea-2012.php:15
 msgid "Taking a bus from Incheon airport"
 msgstr "Dans un bus de l'aéroport d'Incheon"
 
-#: ../../../data/works/Korea 2012.php:42
+#: ../../../data/works/Korea-2012.php:42
 #, php-format
 msgid ""
-"In 2012, I had the opportunity to visit Korea and attend a summer school for three weeks in %s. "
-"During my stay, I took a lot of photos, but I decided only to select a few interesting ones for "
-"this album."
+"In 2012, I had the opportunity to visit Korea and attend a summer school for "
+"three weeks in %s. During my stay, I took a lot of photos, but I decided "
+"only to select a few interesting ones for this album."
 msgstr ""
-"En 2012, j'ai eu l'opportunité de visiter la Corée du sud et d'assister à des cours d'été pour "
-"trois semaines à %s. Pendant mon séjour, j'ai pris de nombreuses photos, mais j'ai décidé de "
-"n'en retenir qu'une petite partie."
+"En 2012, j'ai eu l'opportunité de visiter la Corée du sud et d'assister à "
+"des cours d'été pour trois semaines à %s. Pendant mon séjour, j'ai pris de "
+"nombreuses photos, mais j'ai décidé de n'en retenir qu'une petite partie."
 
-#: ../../../data/works/Korea 2012.php:43
+#: ../../../data/works/Korea-2012.php:43
 msgid "Visit the website of Chonbuk National University"
 msgstr "Visiter le site web de Chonbuk National University"
 
-#: ../../../data/works/Korea 2012.php:43
+#: ../../../data/works/Korea-2012.php:43
 msgid "Chonbuk National University"
 msgstr "Chonbuk National University"
 
-#: ../../../data/works/Laos 2013.php:7
+#: ../../../data/works/Laos-2013.php:7
 msgid "In Buddha park, near Vientiane"
 msgstr "Buddha Park, près de Vientiane"
 
-#: ../../../data/works/Laos 2013.php:12
+#: ../../../data/works/Laos-2013.php:12
 msgid "The emblem of Laos"
 msgstr "L'emblème du Laos"
 
-#: ../../../data/works/Laos 2013.php:17
+#: ../../../data/works/Laos-2013.php:17
 msgid "Strolling in Luang Prabang"
 msgstr "Balade dans Luang Prabang"
 
-#: ../../../data/works/Laos 2013.php:22 2013.php:27
+#: ../../../data/works/Laos-2013.php:22 ../../../data/works/Laos-2013.php:27
 msgid "Luang Prabang"
 msgstr "Luang Prabang"
 
-#: ../../../data/works/Laos 2013.php:32
+#: ../../../data/works/Laos-2013.php:32
 msgid "The Mekong in the morning"
 msgstr "Le Mékong de bon matin"
 
-#: ../../../data/works/Laos 2013.php:37
+#: ../../../data/works/Laos-2013.php:37
 msgid "Nam Phou fountain, Vientiane."
 msgstr "La fontaine de la place Nam Phou, à Vientiane."
 
-#: ../../../data/works/Laos 2013.php:42
+#: ../../../data/works/Laos-2013.php:42
 msgid "The Patuxai (victory monument), Vientiane."
 msgstr "Le Patuxay (arche de triomphe) à Vientiane."
 
-#: ../../../data/works/Laos 2013.php:47
+#: ../../../data/works/Laos-2013.php:47
 msgid "In Pha That Luang, Vientiane."
 msgstr "À Pha That Luang, Vientiane"
 
-#: ../../../data/works/Laos 2013.php:57
+#: ../../../data/works/Laos-2013.php:57
 msgid "In 2013, I explored two cities in Laos: Vientiane and Luang Prabang."
-msgstr "En 2013, j'ai exploré deux villes du Laos : Vientiane et Luang Prabang."
+msgstr ""
+"En 2013, j'ai exploré deux villes du Laos : Vientiane et Luang Prabang."
 
-#: ../../../data/works/Moonlight Champa.php:8
+#: ../../../data/works/Moonlight-Champa.php:8
 msgid "The home page of Moonlight Champa"
 msgstr "La page d'accueil de Moonlight Champa"
 
-#: ../../../data/works/Moonlight Champa.php:14
+#: ../../../data/works/Moonlight-Champa.php:14
 msgid "A page listing all available rooms and their rates"
 msgstr "Une page listant toutes leurs chambres et les tarifs associés"
 
-#: ../../../data/works/Moonlight Champa.php:19
+#: ../../../data/works/Moonlight-Champa.php:19
 msgid ""
-"Moonlight Champa is a guesthouse in Vientiane, Lao PDR. This website aims at attracting "
-"travelers and allows them to book a room."
+"Moonlight Champa is a guesthouse in Vientiane, Lao PDR. This website aims at "
+"attracting travelers and allows them to book a room."
 msgstr ""
-"Moonlight Champa est une maison d'hôtes à Vientiane, au Laos. Ce site a pour objectif d'attirer "
-"les voyageurs et leur permet de faire une demande de chambre."
+"Moonlight Champa est une maison d'hôtes à Vientiane, au Laos. Ce site a pour "
+"objectif d'attirer les voyageurs et leur permet de faire une demande de "
+"chambre."
 
-#: ../../../data/works/Moonlight Champa.php:21
+#: ../../../data/works/Moonlight-Champa.php:21
 msgid ""
-"Moonlight Champa is built on top of Slim (a PHP micro-framework). I developed a first version "
-"of the website in 2013, then I created a second version during summer 2014 and made it "
-"responsive to enhance the experience of smartphone users."
+"Moonlight Champa is built on top of Slim (a PHP micro-framework). I "
+"developed a first version of the website in 2013, then I created a second "
+"version during summer 2014 and made it responsive to enhance the experience "
+"of smartphone users."
 msgstr ""
-"Le site de Moonlight Champa est construit sur Slim (un micro-framework en PHP). J'ai développé "
-"une première version du site en 2013, puis j'ai créé une seconde version pendant l'été 2014 et "
-"l'ai rendue responsive pour améliorer l'expérience des utilisateurs de smartphones."
+"Le site de Moonlight Champa est construit sur Slim (un micro-framework en "
+"PHP). J'ai développé une première version du site en 2013, puis j'ai créé "
+"une seconde version pendant l'été 2014 et l'ai rendue responsive pour "
+"améliorer l'expérience des utilisateurs de smartphones."
 
-#: ../../../data/works/Moonlight Champa.php:23
+#: ../../../data/works/Moonlight-Champa.php:23
 msgid ""
-"I created this website for my friends who own the guesthouse, and because it is an awesome "
-"place to stay, when visiting Vientiane."
+"I created this website for my friends who own the guesthouse, and because it "
+"is an awesome place to stay, when visiting Vientiane."
 msgstr ""
-"J'ai créé ce site web pour mes amis propriétaires de Moonlight Champa, et parce que c'est "
-"l'endroit parfait pour se poser, quand on visite Vientiane."
+"J'ai créé ce site web pour mes amis propriétaires de Moonlight Champa, et "
+"parce que c'est l'endroit parfait pour se poser, quand on visite Vientiane."
 
-#: ../../../data/works/Moonlight Champa.php:35
+#: ../../../data/works/Moonlight-Champa.php:35
 msgid "Check it out!"
 msgstr "Jetez un œil !"
 
-#: ../../../data/works/Other pictures.php:19
+#: ../../../data/works/Other-pictures.php:19
 msgid "Do you recognize this photo? Can you find its twin in another album?"
-msgstr "Avez-vous reconnu cette photo ? Pouvez-vous retrouver sa jumelle dans un autre album ?"
+msgstr ""
+"Avez-vous reconnu cette photo ? Pouvez-vous retrouver sa jumelle dans un "
+"autre album ?"
 
-#: ../../../data/works/Other pictures.php:24
-msgid "In this album, you will find pictures that didn't belong to any other album."
+#: ../../../data/works/Other-pictures.php:24
+msgid ""
+"In this album, you will find pictures that didn't belong to any other album."
 msgstr "Dans cet album, vous trouverez des photos à part."
 
 #: ../../../data/works/Polynomials.php:5
 msgid ""
-"Polynomials is a basic C library for polynomials arithmetic. It is not optimized and only "
-"provides the most basic operations (evaluating a polynomial, derivating it)."
+"Polynomials is a basic C library for polynomials arithmetic. It is not "
+"optimized and only provides the most basic operations (evaluating a "
+"polynomial, derivating it)."
 msgstr ""
-"Polynomials est une bibliothèque C pour faire des maths polynomiales. Elle n'est pas du tout "
-"optimisée et implémente seulement des opérations les plus basiques (évaluer un polynôme, "
-"calculer sa dérivée)."
+"Polynomials est une bibliothèque C pour faire des maths polynomiales. Elle "
+"n'est pas du tout optimisée et implémente seulement des opérations les plus "
+"basiques (évaluer un polynôme, calculer sa dérivée)."
 
 #: ../../../data/works/Polynomials.php:7
 msgid ""
-"It is plain C (a C99-friendly compiler is required) and doesn't require any third-party library."
+"It is plain C (a C99-friendly compiler is required) and doesn't require any "
+"third-party library."
 msgstr ""
-"Le code est écrit en C (un compilateur C99 est nécessaire) et ne requière aucune bibliothèque "
-"externe."
+"Le code est écrit en C (un compilateur C99 est nécessaire) et ne requière "
+"aucune bibliothèque externe."
 
 #: ../../../data/works/Polynomials.php:17
 msgid "Download the source code of Polynomials"
@@ -656,69 +794,142 @@ msgstr "Est-ce que ça semble familier ?"
 msgid "This is my personal website."
 msgstr "Mon site personnel."
 
-#: ../../../data/works/Rapport Schwann.php:7
+#: ../../../data/works/Rallye-Provins.php:8
+msgid "Available in both French and English (the translation is not our work)"
+msgstr ""
+"Disponible en français et anglais (nous ne sommes pas les auteurs de la traduction)"
+
+#: ../../../data/works/Rallye-Provins.php:14
+msgid "Choose from several itineraries the one that best suits your needs."
+msgstr "Choisissez l'itinéraire qui convient le mieux à vos besoins"
+
+#: ../../../data/works/Rallye-Provins.php:20
+msgid ""
+"An itinerary is being downloaded for offline use (thanks to HTML5 "
+"Application Cache)"
+msgstr "Un itinéraire en train de se télécharger pour pouvoir être utilisé même sans connexion internet"
+
+#: ../../../data/works/Rallye-Provins.php:26
+msgid ""
+"The map is here to help you find your way (only available online though)"
+msgstr "La carte vous aide à vous repérer (non disponible hors-ligne)"
+
+#: ../../../data/works/Rallye-Provins.php:36
+msgid ""
+"Rallye Provins is a web application for the people who come to visit the "
+"medieval city of Provins. Provins is a UNESCO World Heritage Site and worth "
+"seeing. You have nothing to install in order to use the app, simply access "
+"it with your smartphone's browser. The server-side part is developed in PHP, "
+"and the client-side is HTML5, CSS3 and JavaScript."
+msgstr "Rallye Provins est une application web pour les visiteurs de la ville médiévale de Provins. Provins est inscrite au patrimoine mondial de l'UNESCO et mérite le détour. Inutile d'installer quoi que ce soit, pour utiliser l'application, il vous suffit d'y accéder dans votre navigateur pour smartphone. La partie serveur est codée en PHP, et la partie client en HTML5, CSS3 et JavaScript."
+
+#: ../../../data/works/Rallye-Provins.php:38
+msgid ""
+"Rallye Provins was a team project for the school which spanned over several "
+"months. Its main selling points are that is available in several languages "
+"(French and English) and can be used even without an internet connection (as "
+"long as you started it beforehand)."
+msgstr "Rallye Provins était un travail de groupe pour l'école qui s'est étalé sur plusieurs mois. Ses principales caractéristiques sont le fait que l'application est disponible en plusieurs langues (français et anglais) et peut être utilisée même sans connexion internet (du moment que vous avez démarré un itinéraire au préalable)."
+
+#: ../../../data/works/Rallye-Provins.php:40
+msgid ""
+"The goal of the web app is not to replace a human guide. It offers another "
+"way to discover the city, more aimed at young generations, and tries to make "
+"you learn some interesting stuff thanks to funny anecdotes and questions."
+msgstr "Le but de l'application n'est pas de remplacer un guide humain. Il est d'offrir une autre manière de découvrir la ville, plutôt à destination des jeunes générations. L'application essaie de vous faire apprendre des choses intéressantes à travers des anecdotes et des questions ludiques."
+
+#: ../../../data/works/Rallye-Provins.php:42
+msgid ""
+"We were a team of four students: Marie Benoist, Lisa Françoise, Alice "
+"Neichols and I. I took care of most of the programming part, and they "
+"created the itineraries and the nice graphics. All in all, it was an "
+"interesting project and I enjoyed working with my teammates."
+msgstr "Nous étions une équipe de quatre étudiants : Marie Benoist, Lisa Françoise, Alice Neichols et moi. Je me suis occupé de la plupart de la partie programmation, et mes amies ont créé les parcours et les beaux visuels. Ce fut un projet intéressant et j'ai eu du plaisir à travailler dans cette équipe."
+
+#: ../../../data/works/Rallye-Provins.php:57
+msgid "Download the source code of Rallye Provins"
+msgstr "Téléchargez le code source de Rallye Provins"
+
+#: ../../../data/works/Rallye-Provins.php:62
+msgid "Check out the web app"
+msgstr "Essayez l'application"
+
+#: ../../../data/works/Rallye-Provins.php:67
+msgid "Check out the web app (second link if the first is dead)"
+msgstr "Essayez l'application (second lien au cas où le premier serait mort)"
+
+#: ../../../data/works/Rallye-Provins.php:72
+msgid ""
+"Download the installation and maintenance manual of Rallye Provins (only in "
+"French)"
+msgstr "Téléchargez le manuel d'installation et de maintenance pour Rallye Provins"
+
+#: ../../../data/works/Rapport-Schwann.php:7
 #, php-format
 msgid ""
-"This is a report about my four-month internship in Beijing, from April to July 2013. I was a "
-"web developer intern at %s."
+"This is a report about my four-month internship in Beijing, from April to "
+"July 2013. I was a web developer intern at %s."
 msgstr ""
-"Il s'agit d'un rapport sur mon stage de quatre mois à Pékin, d'avril à juillet 2013, alors que "
-"j'étais stagiaire développeur web à %s."
+"Il s'agit d'un rapport sur mon stage de quatre mois à Pékin, d'avril à "
+"juillet 2013, alors que j'étais stagiaire développeur web à %s."
 
-#: ../../../data/works/Rapport Schwann.php:8
+#: ../../../data/works/Rapport-Schwann.php:8
 msgid "Visit the website of Schwann"
 msgstr "Visiter le site de Schwann"
 
-#: ../../../data/works/Rapport Schwann.php:8
+#: ../../../data/works/Rapport-Schwann.php:8
 msgid "Schwann web agency"
 msgstr "l'agence web Schwann"
 
-#: ../../../data/works/Rapport Schwann.php:16
+#: ../../../data/works/Rapport-Schwann.php:16
 msgid "Download the report (only in French)"
 msgstr "Téléchargez le rapport de stage"
 
-#: ../../../data/works/Refonte Soleilprod.php:7
+#: ../../../data/works/Refonte-Soleilprod.php:7
 #, php-format
 msgid ""
-"Soleil is a big French comic book publisher. This document describes a detailed overhaul plan "
-"for %s. It contains a study of their current website and their concurrents, and models for a "
-"new website. The work was done in team with Juliette Belin, Alice Neichols and Andréas "
-"Pinbouen. The design of the document was done by Andréas Pinbouen."
+"Soleil is a big French comic book publisher. This document describes a "
+"detailed overhaul plan for %s. It contains a study of their current website "
+"and their concurrents, and models for a new website. The work was done in "
+"team with Juliette Belin, Alice Neichols and Andréas Pinbouen. The design of "
+"the document was done by Andréas Pinbouen."
 msgstr ""
-"Soleil est un gros éditeur de bande-dessinée française. Ce document détaille un plan de refonte "
-"pour %s. Il contient une étude de leur site actuel et de leurs concurrents, et des mockups pour "
-"un nouveau site web. Il s'agissait d'un travail de groupe avec Juliette Belin, Alice Neichols "
-"et Andréas Pinbouen. La mise en page du document a été faite par Andréas Pinbouen."
+"Soleil est un gros éditeur de bande-dessinée française. Ce document détaille "
+"un plan de refonte pour %s. Il contient une étude de leur site actuel et de "
+"leurs concurrents, et des mockups pour un nouveau site web. Il s'agissait "
+"d'un travail de groupe avec Juliette Belin, Alice Neichols et Andréas "
+"Pinbouen. La mise en page du document a été faite par Andréas Pinbouen."
 
-#: ../../../data/works/Refonte Soleilprod.php:8
+#: ../../../data/works/Refonte-Soleilprod.php:8
 msgid "Visit the website of Soleil"
 msgstr "Visitez le site de Soleil"
 
-#: ../../../data/works/Refonte Soleilprod.php:8
+#: ../../../data/works/Refonte-Soleilprod.php:8
 msgid "Soleil's website"
 msgstr "le site web de Soleil"
 
-#: ../../../data/works/Refonte Soleilprod.php:16
+#: ../../../data/works/Refonte-Soleilprod.php:16
 msgid "Download the document (only in French)"
 msgstr "Téléchargez le document"
 
 #: ../../../data/works/Stress.php:5
 msgid ""
-"Stress is an attempt to create a short (2-minute-long) music about stress and losing control. "
-"The music consists of three parts: the rise of stress, an attempt to cool down and lastly, the "
-"failure and the final collapse."
+"Stress is an attempt to create a short (2-minute-long) music about stress "
+"and losing control. The music consists of three parts: the rise of stress, "
+"an attempt to cool down and lastly, the failure and the final collapse."
 msgstr ""
-"Stress est une tentative pour créer une courte musique (longue de deux minutes) au sujet du "
-"stress et de la perte de ses nerfs. La musique est en trois parties : la montée du stress, un "
-"effort pour se calmer et échapper à l'angoisse, puis l'échec et le final."
+"Stress est une tentative pour créer une courte musique (longue de deux "
+"minutes) au sujet du stress et de la perte de ses nerfs. La musique est en "
+"trois parties : la montée du stress, un effort pour se calmer et échapper à "
+"l'angoisse, puis l'échec et le final."
 
 #: ../../../data/works/Stress.php:7
 msgid ""
-"Stress was created using Protools and its plugin Xpand2. Most of the work consisted in editing "
-"MIDI tracks."
+"Stress was created using Protools and its plugin Xpand2. Most of the work "
+"consisted in editing MIDI tracks."
 msgstr ""
-"Stress a été créé avec le logiciel Protools et son plugin Xpand2. Le plus gros du travail a "
-"consisté à éditer des pistes MIDI."
+"Stress a été créé avec le logiciel Protools et son plugin Xpand2. Le plus "
+"gros du travail a consisté à éditer des pistes MIDI."
 
 #: ../../../data/works/Stress.php:12
 msgid "Listen to Stress:"
@@ -728,71 +939,76 @@ msgstr "Écoutez Stress :"
 msgid "Download the Protools project directory"
 msgstr "Téléchargez le répertoire de travail Protools"
 
-#: ../../../data/works/Thailand 2014.php:7
+#: ../../../data/works/Thailand-2014.php:7
 msgid "In Ayutthaya, former capital of a past Siam kingdom"
 msgstr "Ayutthaya, capitale d'un ancien royaume de Siam"
 
-#: ../../../data/works/Thailand 2014.php:12 2014.php:17
+#: ../../../data/works/Thailand-2014.php:12
+#: ../../../data/works/Thailand-2014.php:17
 msgid "Ayutthaya"
 msgstr "Ayutthaya"
 
-#: ../../../data/works/Thailand 2014.php:22 2014.php:27
+#: ../../../data/works/Thailand-2014.php:22
+#: ../../../data/works/Thailand-2014.php:27
 msgid "Benchakitti park, Bangkok"
 msgstr "Le parc Benchakitti, à Bangkok"
 
-#: ../../../data/works/Thailand 2014.php:40
+#: ../../../data/works/Thailand-2014.php:40
 msgid "Chiang Mai train station"
 msgstr "La station ferroviaire de Chiang Mai"
 
-#: ../../../data/works/Thailand 2014.php:45
+#: ../../../data/works/Thailand-2014.php:45
 msgid "A waterfall near Chiang Rai"
 msgstr "Des chutes d'eau non loin de Chiang Rai"
 
-#: ../../../data/works/Thailand 2014.php:62
+#: ../../../data/works/Thailand-2014.php:62
 msgid "In Krabi town"
 msgstr "Dans la ville de Krabi"
 
-#: ../../../data/works/Thailand 2014.php:67
+#: ../../../data/works/Thailand-2014.php:67
 msgid "In Lumphini park, Bangkok"
 msgstr "Dans le parc Lumphini, à Bangkok"
 
-#: ../../../data/works/Thailand 2014.php:72
+#: ../../../data/works/Thailand-2014.php:72
 msgid "Floods in the new town of Sukhothai"
 msgstr "Inondations dans la nouvelle ville de Sukhothai"
 
-#: ../../../data/works/Thailand 2014.php:77
+#: ../../../data/works/Thailand-2014.php:77
 msgid "On the banks of the Chao Phraya, Bangkok"
 msgstr "Sur les rives de la Chao Phraya, à Bangkok"
 
-#: ../../../data/works/Thailand 2014.php:86
+#: ../../../data/works/Thailand-2014.php:86
 msgid "Rama 8 bridge, Bangkok"
 msgstr "Le pont Rama 8, à Bangkok"
 
-#: ../../../data/works/Thailand 2014.php:91
+#: ../../../data/works/Thailand-2014.php:91
 msgid "Strolling in Samui"
 msgstr "Balade dans Samui"
 
-#: ../../../data/works/Thailand 2014.php:104
+#: ../../../data/works/Thailand-2014.php:104
 msgid "In Sukhothai historical park"
 msgstr "Dans le parc historique de Sukhothai"
 
-#: ../../../data/works/Thailand 2014.php:113
-msgid "On the wall of a Buddhist temple: \\\"Eat to Live, Don't Live to Eat\\\""
-msgstr "Sur les murs d'un temple bouddhiste : « vivre pour vivre, non pas vivre pour manger »"
+#: ../../../data/works/Thailand-2014.php:113
+msgid ""
+"On the wall of a Buddhist temple: \\\"Eat to Live, Don't Live to Eat\\\""
+msgstr ""
+"Sur les murs d'un temple bouddhiste : « vivre pour vivre, non pas vivre pour "
+"manger »"
 
-#: ../../../data/works/Thailand 2014.php:118
+#: ../../../data/works/Thailand-2014.php:118
 msgid "The beginning is the most important part of the work"
 msgstr "Le commencement est la partie la plus importante du travail"
 
-#: ../../../data/works/Thailand 2014.php:123
+#: ../../../data/works/Thailand-2014.php:123
 msgid "The White Temple, in Chiang Rai"
 msgstr "Le temple blanc de Chiang Rai"
 
-#: ../../../data/works/Thailand 2014.php:128
+#: ../../../data/works/Thailand-2014.php:128
 msgid "The White Temple in Chiang Rai, again"
 msgstr "Le temple blanc de Chiang Rai"
 
-#: ../../../data/works/Thailand 2014.php:133
+#: ../../../data/works/Thailand-2014.php:133
 msgid "In one word: Thailand."
 msgstr "En un mot : Thaïlande."
 
@@ -807,7 +1023,8 @@ msgstr "Cliquez sur la couverture pour rentrer dans l'album."
 #: ../../../views_cache/50/46/444e8343dc772e558f6a4672e445de376285246e6d121404b26fdbfdfeec.php:72
 msgid "Sorry, it seems that your browser is too old to play this audio!"
 msgstr ""
-"Dommage, il semblerait que votre navigateur soit trop vieux pour jouer cette piste audio !"
+"Dommage, il semblerait que votre navigateur soit trop vieux pour jouer cette "
+"piste audio !"
 
 #: ../../../views_cache/55/c9/9fa8053753c90e3cb5dd2d8ba5ac2ff40db7a75eef54c2ebc87a3b301315.php:27
 #: ../../../views_cache/5c/27/c7eb6f94eda67ad0f47a058a24115cd11c58e0929de7a035e24813fae512.php:46
@@ -843,22 +1060,27 @@ msgid "Thank you for your message!"
 msgstr "Merci pour votre message !"
 
 #: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:89
-msgid "Sorry, the server isn't responding! Please check your internet connection."
-msgstr "Malheureusement, le serveur ne répond pas ! Pouvez-vous vérifier votre connexion ?"
+msgid ""
+"Sorry, the server isn't responding! Please check your internet connection."
+msgstr ""
+"Malheureusement, le serveur ne répond pas ! Pouvez-vous vérifier votre "
+"connexion ?"
 
 #: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:96
-msgid "Sorry, it took you too long to send the form! Please refresh the page and try again."
+msgid ""
+"Sorry, it took you too long to send the form! Please refresh the page and "
+"try again."
 msgstr ""
-"Malheureusement, vous avez été trop long à envoyer le formulaire ! Rafraîchissez la page et "
-"essayez une nouvelle fois."
+"Malheureusement, vous avez été trop long à envoyer le formulaire ! "
+"Rafraîchissez la page et essayez une nouvelle fois."
 
 #: ../../../views_cache/56/8f/ae843adc465dc378e1caeeb58772652f21b3eaf29b3a5d2c7f96c95c423f.php:103
 msgid ""
-"Sorry, the message couldn't be sent! I'll address this problem as soon as possible. Thank you "
-"for your interest."
+"Sorry, the message couldn't be sent! I'll address this problem as soon as "
+"possible. Thank you for your interest."
 msgstr ""
-"Toutes mes excuses, votre message n'a pas pu être envoyé ! Je vais corriger ce problème aussi "
-"vite que possible. Je vous remercie de votre intérêt."
+"Toutes mes excuses, votre message n'a pas pu être envoyé ! Je vais corriger "
+"ce problème aussi vite que possible. Je vous remercie de votre intérêt."
 
 #: ../../../views_cache/9a/35/45abcd65ed2853ce009fecd43ac279ffc3abd37edf489d344c76d65f8764.php:32
 msgid "Page not found!"
@@ -882,22 +1104,25 @@ msgstr "Bienvenue !"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:44
 msgid ""
-"I am Matthieu Bresson. I'm a self-taught person, passionate about computer science and natural "
-"languages. I can dive in a book all day long, or spend hours tinkering with my GNU/Linux "
-"system. Although I was born and raised in France, I intend to work and settle abroad."
+"I am Matthieu Bresson. I'm a self-taught person, passionate about computer "
+"science and natural languages. I can dive in a book all day long, or spend "
+"hours tinkering with my GNU/Linux system. Although I was born and raised in "
+"France, I intend to work and settle abroad."
 msgstr ""
-"Je suis Matthieu Bresson. Je suis un autodidacte passionné par l'informatique et les langues. "
-"Je peux me perdre dans un livre pour la journée, ou passer des heures à bidouiller mon système "
-"GNU/Linux. Bien que je sois né en France, mon objectif est de m'installer et de travailler à "
+"Je suis Matthieu Bresson. Je suis un autodidacte passionné par "
+"l'informatique et les langues. Je peux me perdre dans un livre pour la "
+"journée, ou passer des heures à bidouiller mon système GNU/Linux. Bien que "
+"je sois né en France, mon objectif est de m'installer et de travailler à "
 "l'étranger."
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:51
 msgid ""
-"The emblem of my website is a pathway through the woods, because life is a long and complicated "
-"path we must all walk. It's fine, I love strolling."
+"The emblem of my website is a pathway through the woods, because life is a "
+"long and complicated path we must all walk. It's fine, I love strolling."
 msgstr ""
-"Le symbole de mon site est un sentier forestier, parce que la vie est un chemin long et sinueux "
-"que nous devons tous arpenter. Peu m'importe, j'aime les balades !"
+"Le symbole de mon site est un sentier forestier, parce que la vie est un "
+"chemin long et sinueux que nous devons tous arpenter. Peu m'importe, j'aime "
+"les balades !"
 
 #: ../../../views_cache/c4/87/87d235650f8aacfbe47dd4f9e0b7bc60200dd12e3421479f3e0e2e269160.php:57
 msgid "Enjoy your visit!"
