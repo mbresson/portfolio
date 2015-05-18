@@ -800,7 +800,7 @@ msgstr ""
 "Disponible en français et anglais (nous ne sommes pas les auteurs de la traduction)"
 
 #: ../../../data/works/Rallye-Provins.php:14
-msgid "Choose from several itineraries the one that best suits your needs."
+msgid "Choose from several itineraries the one that best suits your needs"
 msgstr "Choisissez l'itinéraire qui convient le mieux à vos besoins"
 
 #: ../../../data/works/Rallye-Provins.php:20

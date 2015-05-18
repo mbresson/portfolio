@@ -185,6 +185,135 @@ msgstr "เบอร์ลิน 2557"
 msgid "Photos shot during a short trip to Berlin"
 msgstr "รูปที่ถ่ายที่เบอร์ลิน"
 
+#: ../../../data/Works.php:251
+msgid "A basic platform game written in Java"
+msgstr "เกมแพลตฟอร์ม"
+
+#: ../../../data/Works.php:261
+msgid "A web application for tourists in the French medieval town of Provins"
+msgstr "เว็บแอพพลิเคชั่นสำหรับนักท่องเที่ยวที่เมืองพรอแว็ง"
+
+#: ../../../data/works/Betaform.php:8
+msgid "The home screen of Betaform"
+msgstr "หน้าแรกของ Betaform"
+
+#: ../../../data/works/Betaform.php:14
+msgid ""
+"The first level of Betaform gives you a lot of information to help you make "
+"it through"
+msgstr ""
+"ต้นทางค่อนข้างง่าง"
+
+#: ../../../data/works/Betaform.php:20
+msgid "The second level of Betaform is much harder"
+msgstr "ยากขึ้น"
+
+#: ../../../data/works/Betaform.php:26
+msgid ""
+"Betaform is a platform game which takes place in 2115. You are a robot and "
+"you can move, jump, and shoot, but your autonomy is limited: whenever you do "
+"something, your battery is drained. If you run out of power, jumping and "
+"shooting become impossible (till you get some power back)."
+msgstr "Betaform เป็นเกมแพลดฟอร์ม คุณเป็นหุ่นยนต์"
+
+#: ../../../data/works/Betaform.php:28
+msgid ""
+"Betaform is a school project. It is developed in Java and uses the powerful "
+"libGDX. It should run fine on any OS supported by those. The source code is "
+"quite ugly and I am not satisfied with it: since it was my first time trying "
+"to write a complete game and because of the close deadline, I didn't think "
+"long enough before developing it. Nonetheless, I learned a lot in the "
+"process. For now, the game kind of works, and the level editor is half done. "
+"There are three levels for you to try."
+msgstr ""
+"เพราะ Betaform ใช้ไลบรารี่ libGDX คุณจึงน่าจะเล่นในทุกระบบที่มี libGDX โค้ดไม่ค่อยดีเพราะผมทำเกม์แบบนี้เป็นครั้งแรกและมีเวลาน้อยๆ แต่ไม่เป็นไร การทำเกม์นี้น่าสนใจมาก"
+
+#: ../../../data/works/Betaform.php:30
+msgid ""
+"I did all the graphics myself, with the help of Inkscape, a free and open "
+"source vector graphics software. Since I'm a developer, not a graphist, the "
+"graphics just suck but I can live with it since it was not the purpose of "
+"the project and most other students used resources from the Internet."
+msgstr ""
+"ผมทำกราฟิกด้วยตัวเองและโปรแกรมInkscape"
+
+#: ../../../data/works/Betaform.php:34
+msgid "Java programming language"
+msgstr "Java"
+
+#: ../../../data/works/Betaform.php:42
+msgid "Download the source code of Betaform"
+msgstr "บรรจุลงโค้ดของ Betaform"
+
+#: ../../../data/works/Rallye-Provins.php:8
+msgid "Available in both French and English (the translation is not our work)"
+msgstr "มีภาษาฝรั่งเศสและภาษาอังกฤษ "
+
+#: ../../../data/works/Rallye-Provins.php:14
+msgid "Choose from several itineraries the one that best suits your needs"
+msgstr "เลือกทางเดินที่คุณสนใจมากที่สุด"
+
+#: ../../../data/works/Rallye-Provins.php:20
+msgid ""
+"An itinerary is being downloaded for offline use (thanks to HTML5 "
+"Application Cache)"
+msgstr " "
+
+#: ../../../data/works/Rallye-Provins.php:26
+msgid ""
+"The map is here to help you find your way (only available online though)"
+msgstr "Google Maps"
+
+#: ../../../data/works/Rallye-Provins.php:36
+msgid ""
+"Rallye Provins is a web application for the people who come to visit the "
+"medieval city of Provins. Provins is a UNESCO World Heritage Site and worth "
+"seeing. You have nothing to install in order to use the app, simply access "
+"it with your smartphone's browser. The server-side part is developed in PHP, "
+"and the client-side is HTML5, CSS3 and JavaScript."
+msgstr "Rallye Provins เป็นเว็บแอพพลิเคชั่นสำหรับนักท่องเที่ยวที่เมืองพรอแว็ง พรอแว็งเป็นมรดกโลกและน่าไปมาก เวลาอยู่ที่นั่นคุณใช้เว็บแอพพลิเคชั่นได้ง่ายๆ ใช้เบราว์เซอร์สำหรับมือถือและเสร็จแล้ว"
+
+#: ../../../data/works/Rallye-Provins.php:38
+msgid ""
+"Rallye Provins was a team project for the school which spanned over several "
+"months. Its main selling points are that is available in several languages "
+"(French and English) and can be used even without an internet connection (as "
+"long as you started it beforehand)."
+msgstr " "
+
+#: ../../../data/works/Rallye-Provins.php:40
+msgid ""
+"The goal of the web app is not to replace a human guide. It offers another "
+"way to discover the city, more aimed at young generations, and tries to make "
+"you learn some interesting stuff thanks to funny anecdotes and questions."
+msgstr "เว็บแอพพลิเคชั่นไม่เหมือนมัคคุเทศก์ มันพยายามช่วยนักท่องเที่ยวเรียนหลายสิ่งที่สนุกเรื่องเมือง"
+
+#: ../../../data/works/Rallye-Provins.php:42
+msgid ""
+"We were a team of four students: Marie Benoist, Lisa Françoise, Alice "
+"Neichols and I. I took care of most of the programming part, and they "
+"created the itineraries and the nice graphics. All in all, it was an "
+"interesting project and I enjoyed working with my teammates."
+msgstr "นอกจากผม ทีมมีนักศึกษาสามคน ชื่อ Marie Benoist Lisa Françoise และ Alice Neichols"
+
+#: ../../../data/works/Rallye-Provins.php:57
+msgid "Download the source code of Rallye Provins"
+msgstr "บรรจุลงโค้ดของ Rallye Provins"
+
+#: ../../../data/works/Rallye-Provins.php:62
+msgid "Check out the web app"
+msgstr "ลองใช้ดู"
+
+#: ../../../data/works/Rallye-Provins.php:67
+msgid "Check out the web app (second link if the first is dead)"
+msgstr "ลองใช้ดู(เว็บเซิร์ฟเวอร์ที่สอง)"
+
+#: ../../../data/works/Rallye-Provins.php:72
+msgid ""
+"Download the installation and maintenance manual of Rallye Provins (only in "
+"French)"
+msgstr "บรรจุลงคู่มือ(เป็นภาษาฝรั่งเศส)"
+
 #: ../../../data/Works.php:165
 msgid "France"
 msgstr "ประเทศฝรั่งเศส"
