@@ -46,6 +46,11 @@ $contents = [
     'CC BY-SA 4.0' => [
       'name' => _('CC BY-SA 4.0'),
       'href' => 'http://creativecommons.org/licenses/by-sa/4.0/'
+    ],
+
+    'CeCILL-B' => [
+      'name' => _('CeCILL-B'),
+      'href' => 'http://www.cecill.info/index.en.html'
     ]
   ],
 
@@ -234,6 +239,26 @@ $contents = [
       'category' => 'misc',
       'name' => _('Overhaul plan for Soleilprod'),
       'summary' => _('An overhaul plan for soleilprod.com website'),
+
+      'filters' => [
+        'school_project' => true
+      ]
+    ],
+
+    'Betaform' => [
+      'category' => 'programming',
+      'name' => 'Betaform',
+      'summary' => _('A basic platform game written in Java'),
+
+      'filters' => [
+        'school_project' => true
+      ]
+    ],
+
+    'Rallye-Provins' => [
+      'category' => 'programming',
+      'name' => 'Rallye Provins',
+      'summary' => _('A web application for tourists in the French medieval town of Provins'),
 
       'filters' => [
         'school_project' => true
